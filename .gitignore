@@ -40,3 +40,6 @@ CTestTestFile.cmake
 .vscode/
 .idea/
 cmake-build-debug/
+
+# Local installation-test build artifacts
+/bullet_install_test/build/
