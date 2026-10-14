@@ -1,0 +1,48 @@
+[
+  {
+    "precision": "float",
+    "phases": [
+      {
+        "phase": "configure",
+        "exit_code": 0,
+        "seconds": 0.11,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/float-configure.log"
+      },
+      {
+        "phase": "build",
+        "exit_code": 0,
+        "seconds": 13.33,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/float-build.log"
+      },
+      {
+        "phase": "ctest",
+        "exit_code": 0,
+        "seconds": 0.06,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/float-ctest.log"
+      }
+    ]
+  },
+  {
+    "precision": "double",
+    "phases": [
+      {
+        "phase": "configure",
+        "exit_code": 0,
+        "seconds": 0.1,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/double-configure.log"
+      },
+      {
+        "phase": "build",
+        "exit_code": 0,
+        "seconds": 13.35,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/double-build.log"
+      },
+      {
+        "phase": "ctest",
+        "exit_code": 0,
+        "seconds": 0.06,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/double-ctest.log"
+      }
+    ]
+  }
+]

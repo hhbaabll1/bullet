@@ -1,0 +1,7 @@
+INCLUDE_DIRECTORIES(${BULLET_PHYSICS_SOURCE_DIR}/src)
+ADD_EXECUTABLE(Test_ConstraintInterface test_constraint_interface.cpp)
+SET_TARGET_PROPERTIES(Test_ConstraintInterface PROPERTIES CXX_STANDARD 11 CXX_STANDARD_REQUIRED YES)
+TARGET_LINK_LIBRARIES(Test_ConstraintInterface BulletDynamics BulletCollision LinearMath)
+FOREACH(case_name math snapshot graph rigid_rows rigid_world multibody_world rejected element)
+    ADD_TEST(NAME ConstraintInterface_${case_name} COMMAND Test_ConstraintInterface ${case_name})
+ENDFOREACH()

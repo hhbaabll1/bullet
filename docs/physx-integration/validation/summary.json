@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-14",
+  "baseline_commit": "a3ebe727e0bc8d4e780e9c8fb90f512769ca4299",
+  "step2": "complete inventory; 193 coverage items; 1449 references / 134 pinned source blobs verified",
+  "step3": "complete common interfaces and restricted hard-row bridges",
+  "physical_category_ports": "not completed by step 3; implement and validate in following steps",
+  "tests": {
+    "float_release": "11/11 (3 original + 8 interface)",
+    "double_release": "11/11 (3 original + 8 interface)",
+    "asan_ubsan_float_debug": "8/8 interface; leak detection enabled",
+    "installed_consumer_float": "compiled and ran successfully",
+    "installed_consumer_double": "compiled and ran successfully"
+  },
+  "tested_file_sha256": {
+    "src/BulletDynamics/CMakeLists.txt": "b9c471084814c9f2727b57d14bb231df10c0120e8390bf605ade9d9f473caf9f",
+    "src/BulletDynamics/ConstraintSolver/btConstraintExtension.cpp": "a0fcfc88e210b5a77a70375fda9587310c3d7e01d46318afe3c1d3f0bfc21eca",
+    "src/BulletDynamics/ConstraintSolver/btConstraintExtension.h": "b0dffda519dd5ab4691a6292c59004c242b3e3389ac873dbb876d75e8dfb0882",
+    "src/BulletDynamics/ConstraintSolver/btRowDescriptorConstraint.cpp": "1ff898a1742e9fa473fdda0f0eb7ec3f64998bfdd9919d1612f5c229a035c795",
+    "src/BulletDynamics/ConstraintSolver/btRowDescriptorConstraint.h": "71019a7526e80a5334d5f37c8f6fd24831d56bfce918de3bdb24be88998d3641",
+    "src/BulletDynamics/ConstraintSolver/btTypedConstraint.h": "554cea9c086b22391895dbe232b395cb8b830d8ed9fb4581b0978b6e460be477",
+    "src/BulletDynamics/Featherstone/btMultiBodyConstraint.h": "cfc8f81b91d78def818d45e391fd741eabb567c25b5d4d22a2c8f144a41ddf5c",
+    "src/BulletDynamics/Featherstone/btMultiBodyRowDescriptorConstraint.cpp": "1c9bb4905e08de21eae59752110358b417134af6a460241dbcabe9727c5fd0d9",
+    "src/BulletDynamics/Featherstone/btMultiBodyRowDescriptorConstraint.h": "4581938e57229757e1c0f03a62c7332da45bb60deb697eee78a14cd47a16ee7e",
+    "src/BulletSoftBody/CMakeLists.txt": "85780222957a1152bb792d5f4f5f900b97a05c91a2acda3999a8cb486692eea2",
+    "src/BulletSoftBody/btConstraintElementOperator.h": "adfdf450c3099391d24c3da80eaf30e8cf23c5a81ede2f9d1cc98c5802872138",
+    "test/CMakeLists.txt": "b5f65caff88411edac5431970362d4e2373b0b6a958fbe69795d59cbd1c602c0",
+    "test/ConstraintInterface/CMakeLists.txt": "b0acbff7fedcb3decae59bfca754f5f1ff6e101bbe683d1dba9ea388667768be",
+    "test/ConstraintInterface/test_constraint_interface.cpp": "285d4c1de4e0fbd1c5b2d1b232c54fb3b9adad42b7ca9ab7e3a4c953dc532ace"
+  }
+}

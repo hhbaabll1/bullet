@@ -3,6 +3,9 @@ INCLUDE_DIRECTORIES( ${BULLET_PHYSICS_SOURCE_DIR}/src  )
 
 
 SET(BulletDynamics_SRCS
+	ConstraintSolver/btConstraintExtension.cpp
+	ConstraintSolver/btRowDescriptorConstraint.cpp
+	Featherstone/btMultiBodyRowDescriptorConstraint.cpp
 	Character/btKinematicCharacterController.cpp
 	ConstraintSolver/btConeTwistConstraint.cpp
 	ConstraintSolver/btContactConstraint.cpp
@@ -53,6 +56,8 @@ SET(Root_HDRS
 	../btBulletCollisionCommon.h
 )
 SET(ConstraintSolver_HDRS
+	ConstraintSolver/btConstraintExtension.h
+	ConstraintSolver/btRowDescriptorConstraint.h
 	ConstraintSolver/btConeTwistConstraint.h
 	ConstraintSolver/btConstraintSolver.h
 	ConstraintSolver/btContactConstraint.h
@@ -92,6 +97,7 @@ SET(Vehicle_HDRS
 )
 
 SET(Featherstone_HDRS
+	Featherstone/btMultiBodyRowDescriptorConstraint.h
 	Featherstone/btMultiBody.h
 	Featherstone/btMultiBodyConstraint.h
 	Featherstone/btMultiBodyConstraintSolver.h
@@ -141,6 +147,7 @@ SET(BulletDynamics_HDRS
 
 
 ADD_LIBRARY(BulletDynamics ${BulletDynamics_SRCS} ${BulletDynamics_HDRS})
+SET_TARGET_PROPERTIES(BulletDynamics PROPERTIES CXX_STANDARD 11 CXX_STANDARD_REQUIRED YES)
 SET_TARGET_PROPERTIES(BulletDynamics PROPERTIES VERSION ${BULLET_VERSION})
 SET_TARGET_PROPERTIES(BulletDynamics PROPERTIES SOVERSION ${BULLET_VERSION})
 IF (BUILD_SHARED_LIBS)

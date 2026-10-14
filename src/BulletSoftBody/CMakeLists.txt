@@ -33,6 +33,7 @@ SET(BulletSoftBody_SRCS
 
 
 SET(BulletSoftBody_HDRS
+	btConstraintElementOperator.h
 	btSoftBody.h
 	btSoftBodyData.h
 	btSoftBodyConcaveCollisionAlgorithm.h

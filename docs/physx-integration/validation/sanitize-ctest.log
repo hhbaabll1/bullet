@@ -1,0 +1,23 @@
+COMMAND ["ctest", "--test-dir", "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/build-sanitize", "-R", "ConstraintInterface", "--output-on-failure"]
+Internal ctest changing into directory: /cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/build-sanitize
+Test project /cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/build-sanitize
+    Start  4: ConstraintInterface_math
+1/8 Test  #4: ConstraintInterface_math ..............   Passed    3.21 sec
+    Start  5: ConstraintInterface_snapshot
+2/8 Test  #5: ConstraintInterface_snapshot ..........   Passed    3.16 sec
+    Start  6: ConstraintInterface_graph
+3/8 Test  #6: ConstraintInterface_graph .............   Passed    3.18 sec
+    Start  7: ConstraintInterface_rigid_rows
+4/8 Test  #7: ConstraintInterface_rigid_rows ........   Passed    3.15 sec
+    Start  8: ConstraintInterface_rigid_world
+5/8 Test  #8: ConstraintInterface_rigid_world .......   Passed    3.15 sec
+    Start  9: ConstraintInterface_multibody_world
+6/8 Test  #9: ConstraintInterface_multibody_world ...   Passed    3.17 sec
+    Start 10: ConstraintInterface_rejected
+7/8 Test #10: ConstraintInterface_rejected ..........   Passed    3.17 sec
+    Start 11: ConstraintInterface_element
+8/8 Test #11: ConstraintInterface_element ...........   Passed    3.15 sec
+
+100% tests passed, 0 tests failed out of 8
+
+Total Test time (real) =  25.35 sec

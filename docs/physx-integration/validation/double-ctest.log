@@ -1,0 +1,29 @@
+COMMAND ["ctest", "--test-dir", "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/build-verified-double", "--output-on-failure"]
+Internal ctest changing into directory: /cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/build-verified-double
+Test project /cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/build-verified-double
+      Start  1: Test_Collision_PASS
+ 1/11 Test  #1: Test_Collision_PASS ........................   Passed    0.01 sec
+      Start  2: Test_btKinematicCharacterController_PASS
+ 2/11 Test  #2: Test_btKinematicCharacterController_PASS ...   Passed    0.00 sec
+      Start  3: Test_BulletDynamics_PASS
+ 3/11 Test  #3: Test_BulletDynamics_PASS ...................   Passed    0.01 sec
+      Start  4: ConstraintInterface_math
+ 4/11 Test  #4: ConstraintInterface_math ...................   Passed    0.01 sec
+      Start  5: ConstraintInterface_snapshot
+ 5/11 Test  #5: ConstraintInterface_snapshot ...............   Passed    0.00 sec
+      Start  6: ConstraintInterface_graph
+ 6/11 Test  #6: ConstraintInterface_graph ..................   Passed    0.00 sec
+      Start  7: ConstraintInterface_rigid_rows
+ 7/11 Test  #7: ConstraintInterface_rigid_rows .............   Passed    0.00 sec
+      Start  8: ConstraintInterface_rigid_world
+ 8/11 Test  #8: ConstraintInterface_rigid_world ............   Passed    0.00 sec
+      Start  9: ConstraintInterface_multibody_world
+ 9/11 Test  #9: ConstraintInterface_multibody_world ........   Passed    0.00 sec
+      Start 10: ConstraintInterface_rejected
+10/11 Test #10: ConstraintInterface_rejected ...............   Passed    0.00 sec
+      Start 11: ConstraintInterface_element
+11/11 Test #11: ConstraintInterface_element ................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 11
+
+Total Test time (real) =   0.05 sec

@@ -43,6 +43,7 @@ enum btTypedConstraintType
 	GEAR_CONSTRAINT_TYPE,
 	FIXED_CONSTRAINT_TYPE,
 	D6_SPRING_2_CONSTRAINT_TYPE,
+	ROW_DESCRIPTOR_CONSTRAINT_TYPE,  // opt-in extension; existing real IDs unchanged
 	MAX_CONSTRAINT_TYPE
 };
 

@@ -1,0 +1,56 @@
+[
+  {
+    "phase": "float-install",
+    "exit_code": 0,
+    "seconds": 0.19,
+    "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/float-install.log"
+  },
+  {
+    "phase": "float-consumer-compile",
+    "exit_code": 0,
+    "seconds": 0.14,
+    "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/float-consumer-compile.log"
+  },
+  {
+    "phase": "float-consumer-run",
+    "exit_code": 0,
+    "seconds": 0.0,
+    "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/float-consumer-run.log"
+  },
+  {
+    "phase": "double-install",
+    "exit_code": 0,
+    "seconds": 0.19,
+    "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/double-install.log"
+  },
+  {
+    "phase": "double-consumer-compile",
+    "exit_code": 0,
+    "seconds": 0.13,
+    "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/double-consumer-compile.log"
+  },
+  {
+    "phase": "double-consumer-run",
+    "exit_code": 0,
+    "seconds": 0.0,
+    "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/double-consumer-run.log"
+  },
+  {
+    "phase": "sanitize-configure",
+    "exit_code": 0,
+    "seconds": 0.12,
+    "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/sanitize-configure.log"
+  },
+  {
+    "phase": "sanitize-build",
+    "exit_code": 0,
+    "seconds": 9.12,
+    "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/sanitize-build.log"
+  },
+  {
+    "phase": "sanitize-ctest",
+    "exit_code": 0,
+    "seconds": 25.36,
+    "log": "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/sanitize-ctest.log"
+  }
+]

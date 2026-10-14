@@ -1,0 +1,7 @@
+COMMAND ["cmake", "-G", "Ninja", "-S", "/cnic/work/wangky/bullet3", "-B", "/cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/build-sanitize", "-DCMAKE_BUILD_TYPE=Debug", "-DCMAKE_CXX_FLAGS=-fsanitize=address,undefined -fno-omit-frame-pointer", "-DBUILD_SHARED_LIBS=OFF", "-DBUILD_BULLET2_DEMOS=OFF", "-DBUILD_OPENGL3_DEMOS=OFF", "-DBUILD_CPU_DEMOS=OFF", "-DBUILD_EXTRAS=OFF", "-DBUILD_UNIT_TESTS=ON", "-DBUILD_BULLET3=OFF"]
+Linux
+-- Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY OPENGL_glx_LIBRARY OPENGL_INCLUDE_DIR)
+OPENGL NOT FOUND
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/build-sanitize
