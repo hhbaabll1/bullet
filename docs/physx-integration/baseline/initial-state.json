@@ -1,0 +1,98 @@
+{
+  "recorded_at": "2026-10-13T15:00:09.069790+08:00",
+  "bullet": {
+    "root": "/cnic/work/wangky/bullet3",
+    "head": "a3ebe727e0bc8d4e780e9c8fb90f512769ca4299",
+    "source_commit": "63c4d67e337017f9d8b298c900e9aabdb69296e7",
+    "branch": "master",
+    "status": "",
+    "describe": "3.25-28-ga3ebe727e",
+    "version_file": "3.27",
+    "scalar_version_macro": 326
+  },
+  "physx": {
+    "root": "/cnic/work/wangky/PhysX",
+    "head": "7845321d31fa3619917ebe127ab5e08e73de0bdb",
+    "branch": "main",
+    "status": "?? .packman-cache/\n?? physx/install/",
+    "sdk_version": "5.6.1"
+  },
+  "platform": "Linux-6.8.0-1061-nvidia-64k-aarch64-with-glibc2.35",
+  "machine": "aarch64",
+  "existing_generated": [
+    {
+      "path": "/cnic/work/wangky/bullet3/build/CMakeCache.txt",
+      "sha256": "292a7544fac187e7a41fb53697c61fdb8766c737790b6d281d2103874466593b",
+      "config": {
+        "BUILD_BULLET3": "ON",
+        "BUILD_SHARED_LIBS": "ON",
+        "BUILD_UNIT_TESTS": "OFF",
+        "CMAKE_BUILD_TYPE": "",
+        "CMAKE_INSTALL_PREFIX": "/cnic/work/wangky/bullet3_install",
+        "USE_DOUBLE_PRECISION": "OFF",
+        "CMAKE_GENERATOR": "Unix Makefiles",
+        "CMAKE_HOME_DIRECTORY": "/cnic/work/wangky/bullet3"
+      }
+    },
+    {
+      "path": "/cnic/work/wangky/bullet3/bullet_install_test/build/CMakeCache.txt",
+      "sha256": "3e5763b98b49e69dc6aed32a01149b7edbc42790844e888a714fd7a6b2d4a4f4",
+      "config": {
+        "CMAKE_BUILD_TYPE": "",
+        "CMAKE_INSTALL_PREFIX": "/usr/local",
+        "CMAKE_GENERATOR": "Unix Makefiles",
+        "CMAKE_HOME_DIRECTORY": "/cnic/work/wangky/bullet3/bullet_install_test"
+      }
+    },
+    {
+      "path": "/cnic/work/wangky/PhysX/physx/compiler/linux-aarch64-gcc-cpu-only-debug/CMakeCache.txt",
+      "sha256": "bc9d237d4ff1986aaff0a94c58fad1e8fed4bc054a7ec39db288ac805267a1de",
+      "config": {
+        "CMAKE_BUILD_TYPE": "debug",
+        "CMAKE_INSTALL_PREFIX": "/cnic/work/wangky/PhysX/physx/install/linux-aarch64-gcc-cpu-only/PhysX",
+        "CMAKE_GENERATOR": "Unix Makefiles",
+        "CMAKE_HOME_DIRECTORY": "/cnic/work/wangky/PhysX/physx/compiler/public"
+      }
+    },
+    {
+      "path": "/cnic/work/wangky/PhysX/physx/compiler/linux-aarch64-gcc-cpu-only-checked/CMakeCache.txt",
+      "sha256": "d0d01b0abf9910dc02a5a625ab3b9c4d070ec1aa74b08eee38c7ebd3786c0d31",
+      "config": {
+        "CMAKE_BUILD_TYPE": "checked",
+        "CMAKE_INSTALL_PREFIX": "/cnic/work/wangky/PhysX/physx/install/linux-aarch64-gcc-cpu-only/PhysX",
+        "CMAKE_GENERATOR": "Unix Makefiles",
+        "CMAKE_HOME_DIRECTORY": "/cnic/work/wangky/PhysX/physx/compiler/public"
+      }
+    },
+    {
+      "path": "/cnic/work/wangky/PhysX/physx/compiler/linux-aarch64-gcc-cpu-only-release/CMakeCache.txt",
+      "sha256": "1c7a5a02afab3c35aad3cede8d976fdcc0614fbb6138ca222129598375421028",
+      "config": {
+        "CMAKE_BUILD_TYPE": "release",
+        "CMAKE_INSTALL_PREFIX": "/cnic/work/wangky/PhysX/physx/install/linux-aarch64-gcc-cpu-only/PhysX",
+        "CMAKE_GENERATOR": "Unix Makefiles",
+        "CMAKE_HOME_DIRECTORY": "/cnic/work/wangky/PhysX/physx/compiler/public"
+      }
+    },
+    {
+      "path": "/cnic/work/wangky/PhysX/physx/compiler/linux-aarch64-gcc-cpu-only-profile/CMakeCache.txt",
+      "sha256": "7c2ed5cbd8b11c56edf13070e5677d86e511e9a01de533a36c30145420463045",
+      "config": {
+        "CMAKE_BUILD_TYPE": "profile",
+        "CMAKE_INSTALL_PREFIX": "/cnic/work/wangky/PhysX/physx/install/linux-aarch64-gcc-cpu-only/PhysX",
+        "CMAKE_GENERATOR": "Unix Makefiles",
+        "CMAKE_HOME_DIRECTORY": "/cnic/work/wangky/PhysX/physx/compiler/public"
+      }
+    }
+  ],
+  "existing_user_files": [
+    {
+      "path": "/cnic/work/wangky/bullet3/bullet_install_test/CMakeLists.txt",
+      "sha256": "f19db0201038b1f119795d5f92f24cc23c4b05752e2e5d0cac4f1e174e7d5e61"
+    },
+    {
+      "path": "/cnic/work/wangky/bullet3/bullet_install_test/bullet_test.cpp",
+      "sha256": "15b7aea3d60c0cd9aa45e670282988a3cf82120649f77842428217c5017ce282"
+    }
+  ]
+}

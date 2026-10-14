@@ -1,0 +1,21 @@
+{
+  "S-RB": [
+    "bullet:src/BulletDynamics/ConstraintSolver/btTypedConstraint.h:175",
+    "bullet:src/BulletDynamics/ConstraintSolver/btTypedConstraint.h:178",
+    "bullet:src/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp:1294"
+  ],
+  "S-MB": [
+    "bullet:src/BulletDynamics/Featherstone/btMultiBodyConstraint.h:121",
+    "bullet:src/BulletDynamics/Featherstone/btMultiBodyConstraint.h:84",
+    "bullet:src/BulletDynamics/Featherstone/btMultiBodyConstraintSolver.cpp:1445"
+  ],
+  "S-NONRIGID": [
+    "bullet:src/BulletSoftBody/btDeformableContactConstraint.h:21",
+    "bullet:src/BulletSoftBody/btDeformableMultiBodyDynamicsWorld.cpp:1",
+    "bullet:src/BulletSoftBody/btSoftBody.cpp:1351"
+  ],
+  "S-COMMON": [
+    "bullet:src/BulletDynamics/ConstraintSolver/btTypedConstraint.h:34",
+    "bullet:src/BulletDynamics/Featherstone/btMultiBodyConstraint.h:25"
+  ]
+}

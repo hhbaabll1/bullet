@@ -1,0 +1,1932 @@
+[
+  {
+    "id": "T-J-FIX",
+    "coverage_ids": [
+      "J-FIX"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "6个相对自由度残差受控，移动 frame/COM 后一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-REV",
+    "coverage_ids": [
+      "J-REV"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "仅绕 joint X 旋转自由，转轴正负和非零 frame 正确。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-PRISM",
+    "coverage_ids": [
+      "J-PRISM"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "仅 joint X 平移自由，其余5 DOF受限。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-SPHERE",
+    "coverage_ids": [
+      "J-SPHERE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "球心重合、三角自由；旋转锥不会生成 twist 锁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-DIST",
+    "coverage_ids": [
+      "J-DIST"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "上下界开关、相等界、零距离方向和弹簧连续。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-D6",
+    "coverage_ids": [
+      "J-D6"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "729种 motion 配置合法性/行数/自由方向符合契约。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-GEAR",
+    "coverage_ids": [
+      "J-GEAR"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "正负比率及跨圈累计角的速度和相位误差受控。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-RACK",
+    "coverage_ids": [
+      "J-RACK"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "旋转和平移比率/方向/相位正确，变更 ratio 重置规则一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-REV-LIMIT",
+    "coverage_ids": [
+      "J-REV-LIMIT"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "上下界分别测试 k/c=0 与非零及 bounce velocity 阈值，跨π不反向。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-REV-DRIVE",
+    "coverage_ids": [
+      "J-REV-DRIVE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "正负目标速度、gearRatio、forceLimit 与 dt 换算符合目标。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-REV-FREESPIN",
+    "coverage_ids": [
+      "J-REV-FREESPIN"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "被动超速不制动；反向速度仍受驱动正确加速。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-PRISM-LIMIT",
+    "coverage_ids": [
+      "J-PRISM-LIMIT"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "上下界、相等界及高速接近界限的启用条件符合 source prep。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-SPHERE-CONE",
+    "coverage_ids": [
+      "J-SPHERE-CONE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "两不同半角、接近π边界、锥角法向与回弹响应正确。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-DIST-MIN",
+    "coverage_ids": [
+      "J-DIST-MIN"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "仅 min 标志时不限制上方，零距离处理无NaN。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-DIST-MAX",
+    "coverage_ids": [
+      "J-DIST-MAX"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "仅 max 标志时绳长内自由，外侧拉回。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-DIST-RANGE",
+    "coverage_ids": [
+      "J-DIST-RANGE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "min/max同时启用及相等界，tolerance 内外没有符号跳变。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-J-DIST-SPRING",
+    "coverage_ids": [
+      "J-DIST-SPRING"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "spring 开关、k=0/c>0、阻尼和质量比例行为通过解析一维对照。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-X-LOCKED",
+    "coverage_ids": [
+      "D6-X-LOCKED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-X-LIMITED",
+    "coverage_ids": [
+      "D6-X-LIMITED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-X-FREE",
+    "coverage_ids": [
+      "D6-X-FREE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-Y-LOCKED",
+    "coverage_ids": [
+      "D6-Y-LOCKED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-Y-LIMITED",
+    "coverage_ids": [
+      "D6-Y-LIMITED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-Y-FREE",
+    "coverage_ids": [
+      "D6-Y-FREE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-Z-LOCKED",
+    "coverage_ids": [
+      "D6-Z-LOCKED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-Z-LIMITED",
+    "coverage_ids": [
+      "D6-Z-LIMITED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-Z-FREE",
+    "coverage_ids": [
+      "D6-Z-FREE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-TWIST-LOCKED",
+    "coverage_ids": [
+      "D6-TWIST-LOCKED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-TWIST-LIMITED",
+    "coverage_ids": [
+      "D6-TWIST-LIMITED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-TWIST-FREE",
+    "coverage_ids": [
+      "D6-TWIST-FREE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-SWING1-LOCKED",
+    "coverage_ids": [
+      "D6-SWING1-LOCKED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-SWING1-LIMITED",
+    "coverage_ids": [
+      "D6-SWING1-LIMITED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-SWING1-FREE",
+    "coverage_ids": [
+      "D6-SWING1-FREE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-SWING2-LOCKED",
+    "coverage_ids": [
+      "D6-SWING2-LOCKED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-SWING2-LIMITED",
+    "coverage_ids": [
+      "D6-SWING2-LIMITED"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-SWING2-FREE",
+    "coverage_ids": [
+      "D6-SWING2-FREE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "纳入全部3^6组合；锁定方向为双边行，自由方向无锁定行，limited 依选定几何界限启用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-LIMIT-DISTANCE",
+    "coverage_ids": [
+      "D6-LIMIT-DISTANCE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "1/2/3 limited 线轴对应距离维数、近零距离和与 axis limit 共存。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-LIMIT-LINEAR-PAIR",
+    "coverage_ids": [
+      "D6-LIMIT-LINEAR-PAIR"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "三个axis分别测试 lower/upper/相等界，和径向限位同时开启。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-LIMIT-TWIST",
+    "coverage_ids": [
+      "D6-LIMIT-TWIST"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "正负角、跨π、extended limits 和上下界法向。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-LIMIT-CONE",
+    "coverage_ids": [
+      "D6-LIMIT-CONE"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "swing1/2独立状态，锥面法向及退化边界。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-LIMIT-PYRAMID",
+    "coverage_ids": [
+      "D6-LIMIT-PYRAMID"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "四界独立、非对称姿态、同时设置 cone 的调用顺序。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-DRIVE-X",
+    "coverage_ids": [
+      "D6-DRIVE-X"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "三个 angular config × 729 motion 配置过滤合法组合；验证锁轴抑制、SLERP优先级、pose/velocity target、饱和及反馈。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-DRIVE-Y",
+    "coverage_ids": [
+      "D6-DRIVE-Y"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "三个 angular config × 729 motion 配置过滤合法组合；验证锁轴抑制、SLERP优先级、pose/velocity target、饱和及反馈。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-DRIVE-Z",
+    "coverage_ids": [
+      "D6-DRIVE-Z"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "三个 angular config × 729 motion 配置过滤合法组合；验证锁轴抑制、SLERP优先级、pose/velocity target、饱和及反馈。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-DRIVE-TWIST",
+    "coverage_ids": [
+      "D6-DRIVE-TWIST"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "三个 angular config × 729 motion 配置过滤合法组合；验证锁轴抑制、SLERP优先级、pose/velocity target、饱和及反馈。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-DRIVE-SWING",
+    "coverage_ids": [
+      "D6-DRIVE-SWING"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "三个 angular config × 729 motion 配置过滤合法组合；验证锁轴抑制、SLERP优先级、pose/velocity target、饱和及反馈。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-DRIVE-SLERP",
+    "coverage_ids": [
+      "D6-DRIVE-SLERP"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "三个 angular config × 729 motion 配置过滤合法组合；验证锁轴抑制、SLERP优先级、pose/velocity target、饱和及反馈。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-DRIVE-SWING1",
+    "coverage_ids": [
+      "D6-DRIVE-SWING1"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "三个 angular config × 729 motion 配置过滤合法组合；验证锁轴抑制、SLERP优先级、pose/velocity target、饱和及反馈。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-DRIVE-SWING2",
+    "coverage_ids": [
+      "D6-DRIVE-SWING2"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "三个 angular config × 729 motion 配置过滤合法组合；验证锁轴抑制、SLERP优先级、pose/velocity target、饱和及反馈。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-ANGULAR-CONFIG",
+    "coverage_ids": [
+      "D6-ANGULAR-CONFIG"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "切换配置重置角驱动，非法drive ID受控报错，linear drives不受误伤。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-ACCELERATION",
+    "coverage_ids": [
+      "D6-ACCELERATION"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "两种质量与惯量比例场景检验 acceleration drive 响应而非固定力弹簧。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-OUTPUT",
+    "coverage_ids": [
+      "D6-OUTPUT"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "flag清零不累加drive反馈，flag置位力矩/force与断裂阈值一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-D6-TARGET",
+    "coverage_ids": [
+      "D6-TARGET"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "非identity actor/frame，autowake true/false，target velocity坐标转换。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-FIX",
+    "coverage_ids": [
+      "A-FIX"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "枚举type × 6轴 × motion合法性；父子frame/COM变换、q/v映射、固定/浮动基座均覆盖。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-PRISMATIC",
+    "coverage_ids": [
+      "A-PRISMATIC"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "枚举type × 6轴 × motion合法性；父子frame/COM变换、q/v映射、固定/浮动基座均覆盖。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-REVOLUTE",
+    "coverage_ids": [
+      "A-REVOLUTE"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "枚举type × 6轴 × motion合法性；父子frame/COM变换、q/v映射、固定/浮动基座均覆盖。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-REVOLUTE_UNWRAPPED",
+    "coverage_ids": [
+      "A-REVOLUTE_UNWRAPPED"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "枚举type × 6轴 × motion合法性；父子frame/COM变换、q/v映射、固定/浮动基座均覆盖。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-SPHERICAL",
+    "coverage_ids": [
+      "A-SPHERICAL"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "枚举type × 6轴 × motion合法性；父子frame/COM变换、q/v映射、固定/浮动基座均覆盖。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-AXIS-MOTION",
+    "coverage_ids": [
+      "A-AXIS-MOTION"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "轴序显式映射；FIX无自由轴；prismatic/revolute最多一匹配轴；spherical角轴组合包括单轴边界验证。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-LIMIT",
+    "coverage_ids": [
+      "A-LIMIT"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "prismatic/revolute/spherical/unwrapped 界限及 equality 文档/validator差异；每个启用轴验证。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-PREDICTIVE",
+    "coverage_ids": [
+      "A-PREDICTIVE"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "到界前预测和已越界纠正分开；高速、小dt、不等惯量；不可用外部关节限位公式推断内部规则。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-DRIVE-FORCE",
+    "coverage_ids": [
+      "A-DRIVE-FORCE"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "position+velocity PD、maxForce饱和、force/impulse flag dt换算。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-DRIVE-ACCEL",
+    "coverage_ids": [
+      "A-DRIVE-ACCEL"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "不同response mass的跟踪曲线与解析目标符号一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-DRIVE-NONE",
+    "coverage_ids": [
+      "A-DRIVE-NONE"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "关闭后无遗留warmstart驱动力，不影响限位/摩擦。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-FRICTION-STATIC",
+    "coverage_ids": [
+      "A-FRICTION-STATIC"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "低于阈值保持，高于阈值启滑；static>=dynamic。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-FRICTION-DYNAMIC",
+    "coverage_ids": [
+      "A-FRICTION-DYNAMIC"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "正负运动阻力方向正确，零速度切换不增能。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-FRICTION-VISCOUS",
+    "coverage_ids": [
+      "A-FRICTION-VISCOUS"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "effort与joint velocity成比例；线/角单位各自检查。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-FRICTION-LEGACY",
+    "coverage_ids": [
+      "A-FRICTION-LEGACY"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "未设置per-axis新参数时旧值生效；已设置轴不会被旧setter覆盖。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-ARMATURE",
+    "coverage_ids": [
+      "A-ARMATURE"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "零值回归；ABA/response/forward/inverse dynamics采用同一惯量定义。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-VELOCITY",
+    "coverage_ids": [
+      "A-VELOCITY"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "双方向饱和、各轴独立、legacy precedence。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-ENVELOPE",
+    "coverage_ids": [
+      "A-ENVELOPE"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "effort-velocity两条不等式四参数，各零值/非零与drive,maxvelocity叠加。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-A-STATE",
+    "coverage_ids": [
+      "A-STATE"
+    ],
+    "objects": "O-TREE",
+    "acceptance": "直接修改状态、目标和cache输入次序，rotvec与quaternion转换不混淆。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-C-MIMIC-HARD",
+    "coverage_ids": [
+      "C-MIMIC-HARD"
+    ],
+    "objects": "O-TREE-COUPLED",
+    "acceptance": "正负ratio/offset、同树跨分支、同DOF拒绝；广义坐标残差受控。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-C-MIMIC-SOFT",
+    "coverage_ids": [
+      "C-MIMIC-SOFT"
+    ],
+    "objects": "O-TREE-COUPLED",
+    "acceptance": "frequency/damping两者正才为soft；任一<=0为hard；解析阻尼响应。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-C-FIXED-LENGTH",
+    "coverage_ids": [
+      "C-FIXED-LENGTH"
+    ],
+    "objects": "O-TREE-COUPLED",
+    "acceptance": "多分支广义长度求和与独立计算一致，混合线角量纲明确。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-C-FIXED-RESPONSE",
+    "coverage_ids": [
+      "C-FIXED-RESPONSE"
+    ],
+    "objects": "O-TREE-COUPLED",
+    "acceptance": "coefficient与recipCoefficient不同/为0时，测量和冲量通道分别生效。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-C-FIXED-LIMIT",
+    "coverage_ids": [
+      "C-FIXED-LIMIT"
+    ],
+    "objects": "O-TREE-COUPLED",
+    "acceptance": "restLength/offset/上下界及k/c/limitStiffness独立控制。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-C-SPATIAL-GEOMETRY",
+    "coverage_ids": [
+      "C-SPATIAL-GEOMETRY"
+    ],
+    "objects": "O-TREE-COUPLED",
+    "acceptance": "root-leaf各路径长度，局部点移动、branch和系数符号。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-C-SPATIAL-FORCE",
+    "coverage_ids": [
+      "C-SPATIAL-FORCE"
+    ],
+    "objects": "O-TREE-COUPLED",
+    "acceptance": "根/叶受力与response一致；中间几何点不误施滑轮力。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-C-SPATIAL-LIMIT",
+    "coverage_ids": [
+      "C-SPATIAL-LIMIT"
+    ],
+    "objects": "O-TREE-COUPLED",
+    "acceptance": "每叶rest/上下限，预张力、松弛、零长度保护。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-C-LOOP",
+    "coverage_ids": [
+      "C-LOOP"
+    ],
+    "objects": "O-LOOP",
+    "acceptance": "同树环/不同树/树到RB固定点的耦合响应，不双计同树质量。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-NORMAL",
+    "coverage_ids": [
+      "K-NORMAL"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "法向冲量>=0、非穿透/分离、动态和静态接触路径。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-FRICTION-STATIC",
+    "coverage_ids": [
+      "K-FRICTION-STATIC"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "斜面静止阈值、载荷比例和多点patch。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-FRICTION-DYNAMIC",
+    "coverage_ids": [
+      "K-FRICTION-DYNAMIC"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "滑动阻力与方向，静动切换和高摩擦。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-RESTITUTION",
+    "coverage_ids": [
+      "K-RESTITUTION"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "阈值上/下，0/1，负值进入compliant而非负回弹。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-COMPLIANT-FORCE",
+    "coverage_ids": [
+      "K-COMPLIANT-FORCE"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "负restitution与damping映射，材料混合，弹簧阻尼解析对照。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-COMPLIANT-ACCEL",
+    "coverage_ids": [
+      "K-COMPLIANT-ACCEL"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "质量比例对照，mixed acceleration/force material组合。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-COMBINE",
+    "coverage_ids": [
+      "K-COMBINE"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "4×4优先级和四种数值运算；rigid/compliant与mixed acceleration分支。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-DISABLE-FRICTION",
+    "coverage_ids": [
+      "K-DISABLE-FRICTION"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "开关后切向响应消失/恢复，无旧warmstart。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-STRONG-FRICTION",
+    "coverage_ids": [
+      "K-STRONG-FRICTION"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "持久patch锚误差与滑移阈值；不同接触流形更新。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-TORSIONAL",
+    "coverage_ids": [
+      "K-TORSIONAL"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "radius/minRadius、点/面接触和角速度，不能直接等价 rolling friction。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-OFFSETS",
+    "coverage_ids": [
+      "K-OFFSETS"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "offset/restOffset正负组合、分离预测、几何尺度与高速场景。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-TARGET",
+    "coverage_ids": [
+      "K-TARGET"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "传送带切向速度和法向目标，frame正确。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-MODIFY",
+    "coverage_ids": [
+      "K-MODIFY"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "修改后Jacobian和有效质量同步更新；invalid normal拒绝。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-IMPULSE",
+    "coverage_ids": [
+      "K-IMPULSE"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "0忽略、有限上限、maxContactImpulse组合。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-MASS-SCALE",
+    "coverage_ids": [
+      "K-MASS-SCALE"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "四缩放独立，不改变原始质量；反馈记录实际施加量。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-CCD",
+    "coverage_ids": [
+      "K-CCD"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "现有Bullet CCD下保持法向/摩擦/回弹合同；离散和speculative路径区别登记。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-K-FILTER",
+    "coverage_ids": [
+      "K-FILTER"
+    ],
+    "objects": "O-CONTACT",
+    "acceptance": "collision solving/contact reporting/trigger分离；过滤不误生成行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-M-LOCKS",
+    "coverage_ids": [
+      "M-LOCKS"
+    ],
+    "objects": "O-MOBILITY",
+    "acceptance": "六单轴及64组合、惯量旋转后世界锁轴定义，外力和约束响应均一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-M-KINEMATIC",
+    "coverage_ids": [
+      "M-KINEMATIC"
+    ],
+    "objects": "O-MOBILITY",
+    "acceptance": "运动学输入速度推动动态端，inverseMass=0且不接受反冲量。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-M-BASE",
+    "coverage_ids": [
+      "M-BASE"
+    ],
+    "objects": "O-MOBILITY",
+    "acceptance": "相同关节场景固定和浮动root响应正确，切换遵守生命周期。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-M-SELF-COLLISION",
+    "coverage_ids": [
+      "M-SELF-COLLISION"
+    ],
+    "objects": "O-MOBILITY",
+    "acceptance": "父子过滤与非相邻link开关分别覆盖。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-M-VELOCITY-CAPS",
+    "coverage_ids": [
+      "M-VELOCITY-CAPS"
+    ],
+    "objects": "O-MOBILITY",
+    "acceptance": "逐项上限、角线速度、正负边界、与限位和接触叠加。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-M-SLEEP",
+    "coverage_ids": [
+      "M-SLEEP"
+    ],
+    "objects": "O-MOBILITY",
+    "acceptance": "修改目标/参数、禁用再启用、接触后唤醒和autowake=false。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-X-CUSTOM",
+    "coverage_ids": [
+      "X-CUSTOM"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "自定义1/多行、行数变化、0行、不可满足行、Jacobian/冲量上下界及connector生命周期。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-X-PULLEY",
+    "coverage_ids": [
+      "X-PULLEY"
+    ],
+    "objects": "O-JOINT",
+    "acceptance": "ratio=1/2/-1；比较几何误差导数与J；正/负/零误差冲量界；兼容原snippet规则与改进模型需不同配置和测试基准。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-V-SUSPENSION",
+    "coverage_ids": [
+      "V-SUSPENSION"
+    ],
+    "objects": "O-VEHICLE",
+    "acceptance": "悬架三方向配置、rest/contact状态；sticky低速持续时间/解除条件和正反速度；三个行可独立开关。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-V-STICKY-LONG",
+    "coverage_ids": [
+      "V-STICKY-LONG"
+    ],
+    "objects": "O-VEHICLE",
+    "acceptance": "悬架三方向配置、rest/contact状态；sticky低速持续时间/解除条件和正反速度；三个行可独立开关。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-V-STICKY-LAT",
+    "coverage_ids": [
+      "V-STICKY-LAT"
+    ],
+    "objects": "O-VEHICLE",
+    "acceptance": "悬架三方向配置、rest/contact状态；sticky低速持续时间/解除条件和正反速度；三个行可独立开关。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-DENSITY",
+    "coverage_ids": [
+      "P-DENSITY"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "静态液柱密度误差、自由面及压力无无故吸引。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-GRANULAR",
+    "coverage_ids": [
+      "P-GRANULAR"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "堆积、不同phase、粒径/质量和自碰撞filter。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-SPRING",
+    "coverage_ids": [
+      "P-SPRING"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "拉伸、压缩、剪切/弯曲网络拓扑，restLength和stiffness/damping。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-INFLATABLE",
+    "coverage_ids": [
+      "P-INFLATABLE"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "闭合网格体积、pressure/constraintScale，破洞/退化输入拒绝。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-CLUSTER",
+    "coverage_ids": [
+      "P-CLUSTER"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "刚体平移/旋转不引入形变能，cluster重叠/权重与退化分布。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-FIXED",
+    "coverage_ids": [
+      "P-FIXED"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "inverseMass=0受约束力不移动，目标更新和解除固定。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-MATERIAL",
+    "coverage_ids": [
+      "P-MATERIAL"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "friction/damping/adhesion/gravity/viscosity/vorticity/surfaceTension/cohesion/CFL逐项开关与量纲。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-PHASE",
+    "coverage_ids": [
+      "P-PHASE"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "group隔离、fluid flag与selfCollision过滤、rest位置过滤。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-RIGID-CONTACT",
+    "coverage_ids": [
+      "P-RIGID-CONTACT"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "法向/摩擦、双向动量、static/kinematic和link反作用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-SURFACE-CONTACT",
+    "coverage_ids": [
+      "P-SURFACE-CONTACT"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "粒子落在三角面，重心分配、穿透与双向响应。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-VOLUME-CONTACT",
+    "coverage_ids": [
+      "P-VOLUME-CONTACT"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "粒子对体碰撞表面响应及仿真mesh映射一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-RIGID-ATTACH",
+    "coverage_ids": [
+      "P-RIGID-ATTACH"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "particle-rigid固定点、局部坐标、索引复用、双向响应与setRigidFilters独立开关。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-P-BUFFER",
+    "coverage_ids": [
+      "P-BUFFER"
+    ],
+    "objects": "O-PARTICLE",
+    "acceptance": "activeCount/容量、buffer销毁、索引复用、GPU到CPU语义数据转换。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-SURFACE-MEMBRANE",
+    "coverage_ids": [
+      "F-SURFACE-MEMBRANE"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "单三角stretch/shear、刚体运动零能、网格收敛。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-SURFACE-BEND",
+    "coverage_ids": [
+      "F-SURFACE-BEND"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "静止弯角、弯曲方向、thickness/bending stiffness。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-SURFACE-INPLANE-DAMP",
+    "coverage_ids": [
+      "F-SURFACE-INPLANE-DAMP"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "纯刚体运动不耗应变能，形变振动衰减。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-SURFACE-BEND-DAMP",
+    "coverage_ids": [
+      "F-SURFACE-BEND-DAMP"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "弯曲模态衰减、不抑制无关刚体运动。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-VOLUME-COROT",
+    "coverage_ids": [
+      "F-VOLUME-COROT"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "单tet拉伸/剪切/旋转，接近不可压缩Poisson边界。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-VOLUME-NEO",
+    "coverage_ids": [
+      "F-VOLUME-NEO"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "大形变/能量梯度、倒置/近零体积的保护。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-VOLUME-DAMP",
+    "coverage_ids": [
+      "F-VOLUME-DAMP"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "两阻尼分离、刚体平移/旋转与应变模态。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-KINEMATIC",
+    "coverage_ids": [
+      "F-KINEMATIC"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "局部顶点目标、invMass、释放后的速度一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-MESH",
+    "coverage_ids": [
+      "F-MESH"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "不同网格映射、tet材料索引、碰撞力回传和质量总和。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-SURFACE-CONTACT",
+    "coverage_ids": [
+      "F-SURFACE-CONTACT"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "顶点/边/面接触、两面/自接触filter、MB反作用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-VOLUME-CONTACT",
+    "coverage_ids": [
+      "F-VOLUME-CONTACT"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "tet碰撞表面、self filter、双向力、不同仿真网格。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-SURFACE-VOLUME",
+    "coverage_ids": [
+      "F-SURFACE-VOLUME"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "膜落在软体上，接触重心和双向动量一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-FILTER",
+    "coverage_ids": [
+      "F-FILTER"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "禁用指定元素对、销毁恢复、attachment不隐式漏开filter。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-SLEEP",
+    "coverage_ids": [
+      "F-SLEEP"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "旧参数到新body setter逐项映射，睡眠/唤醒/自碰撞应力容忍。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-SURFACE_VTX_RIGID",
+    "coverage_ids": [
+      "AT-SURFACE_VTX_RIGID"
+    ],
+    "objects": "O-ATTACH",
+    "acceptance": "两端位置残差/权重/双向反作用；valid/invalid索引、重心归一、交换端点、pose更新和销毁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-SURFACE_TRI_RIGID",
+    "coverage_ids": [
+      "AT-SURFACE_TRI_RIGID"
+    ],
+    "objects": "O-ATTACH",
+    "acceptance": "两端位置残差/权重/双向反作用；valid/invalid索引、重心归一、交换端点、pose更新和销毁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-SURFACE_VTX_WORLD",
+    "coverage_ids": [
+      "AT-SURFACE_VTX_WORLD"
+    ],
+    "objects": "O-ATTACH",
+    "acceptance": "两端位置残差/权重/双向反作用；valid/invalid索引、重心归一、交换端点、pose更新和销毁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-SURFACE_TRI_WORLD",
+    "coverage_ids": [
+      "AT-SURFACE_TRI_WORLD"
+    ],
+    "objects": "O-ATTACH",
+    "acceptance": "两端位置残差/权重/双向反作用；valid/invalid索引、重心归一、交换端点、pose更新和销毁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-VOLUME_VTX_RIGID",
+    "coverage_ids": [
+      "AT-VOLUME_VTX_RIGID"
+    ],
+    "objects": "O-ATTACH",
+    "acceptance": "两端位置残差/权重/双向反作用；valid/invalid索引、重心归一、交换端点、pose更新和销毁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-VOLUME_TET_RIGID",
+    "coverage_ids": [
+      "AT-VOLUME_TET_RIGID"
+    ],
+    "objects": "O-ATTACH",
+    "acceptance": "两端位置残差/权重/双向反作用；valid/invalid索引、重心归一、交换端点、pose更新和销毁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-VOLUME_VTX_WORLD",
+    "coverage_ids": [
+      "AT-VOLUME_VTX_WORLD"
+    ],
+    "objects": "O-ATTACH",
+    "acceptance": "两端位置残差/权重/双向反作用；valid/invalid索引、重心归一、交换端点、pose更新和销毁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-VOLUME_TET_WORLD",
+    "coverage_ids": [
+      "AT-VOLUME_TET_WORLD"
+    ],
+    "objects": "O-ATTACH",
+    "acceptance": "两端位置残差/权重/双向反作用；valid/invalid索引、重心归一、交换端点、pose更新和销毁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-SURFACE_TRI_SURFACE_TRI",
+    "coverage_ids": [
+      "AT-SURFACE_TRI_SURFACE_TRI"
+    ],
+    "objects": "O-ATTACH",
+    "acceptance": "两端位置残差/权重/双向反作用；valid/invalid索引、重心归一、交换端点、pose更新和销毁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-VOLUME_TET_VOLUME_TET",
+    "coverage_ids": [
+      "AT-VOLUME_TET_VOLUME_TET"
+    ],
+    "objects": "O-ATTACH",
+    "acceptance": "两端位置残差/权重/双向反作用；valid/invalid索引、重心归一、交换端点、pose更新和销毁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-VOLUME_TET_SURFACE_TRI",
+    "coverage_ids": [
+      "AT-VOLUME_TET_SURFACE_TRI"
+    ],
+    "objects": "O-ATTACH",
+    "acceptance": "两端位置残差/权重/双向反作用；valid/invalid索引、重心归一、交换端点、pose更新和销毁。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-EX-AT-SURFACE_TRI_SURFACE_VTX",
+    "coverage_ids": [
+      "EX-AT-SURFACE_TRI_SURFACE_VTX"
+    ],
+    "objects": "O-REJECT",
+    "acceptance": "所有6组创建必须明确报unsupported，不创建半有效对象、无资源泄漏。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-EX-AT-SURFACE_VTX_SURFACE_VTX",
+    "coverage_ids": [
+      "EX-AT-SURFACE_VTX_SURFACE_VTX"
+    ],
+    "objects": "O-REJECT",
+    "acceptance": "所有6组创建必须明确报unsupported，不创建半有效对象、无资源泄漏。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-EX-AT-VOLUME_TET_VOLUME_VTX",
+    "coverage_ids": [
+      "EX-AT-VOLUME_TET_VOLUME_VTX"
+    ],
+    "objects": "O-REJECT",
+    "acceptance": "所有6组创建必须明确报unsupported，不创建半有效对象、无资源泄漏。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-EX-AT-VOLUME_TET_SURFACE_VTX",
+    "coverage_ids": [
+      "EX-AT-VOLUME_TET_SURFACE_VTX"
+    ],
+    "objects": "O-REJECT",
+    "acceptance": "所有6组创建必须明确报unsupported，不创建半有效对象、无资源泄漏。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-EX-AT-VOLUME_VTX_VOLUME_VTX",
+    "coverage_ids": [
+      "EX-AT-VOLUME_VTX_VOLUME_VTX"
+    ],
+    "objects": "O-REJECT",
+    "acceptance": "所有6组创建必须明确报unsupported，不创建半有效对象、无资源泄漏。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-EX-AT-VOLUME_VTX_SURFACE_VTX",
+    "coverage_ids": [
+      "EX-AT-VOLUME_VTX_SURFACE_VTX"
+    ],
+    "objects": "O-REJECT",
+    "acceptance": "所有6组创建必须明确报unsupported，不创建半有效对象、无资源泄漏。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-LEGACY-PARTICLE-TET",
+    "coverage_ids": [
+      "AT-LEGACY-PARTICLE-TET"
+    ],
+    "objects": "O-ATTACH-LEGACY",
+    "acceptance": "deprecated入口handle创建/删除、cone参数、索引/坐标和双向响应；别名不重复求解。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-LEGACY-VERTEX-RIGID",
+    "coverage_ids": [
+      "AT-LEGACY-VERTEX-RIGID"
+    ],
+    "objects": "O-ATTACH-LEGACY",
+    "acceptance": "deprecated入口handle创建/删除、cone参数、索引/坐标和双向响应；别名不重复求解。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-LEGACY-TET-RIGID",
+    "coverage_ids": [
+      "AT-LEGACY-TET-RIGID"
+    ],
+    "objects": "O-ATTACH-LEGACY",
+    "acceptance": "deprecated入口handle创建/删除、cone参数、索引/坐标和双向响应；别名不重复求解。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-AT-LEGACY-TET-TET",
+    "coverage_ids": [
+      "AT-LEGACY-TET-TET"
+    ],
+    "objects": "O-ATTACH-LEGACY",
+    "acceptance": "deprecated入口handle创建/删除、cone参数、索引/坐标和双向响应；别名不重复求解。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-R-SPRING",
+    "coverage_ids": [
+      "R-SPRING"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "单标志和互斥/依赖组合的数值行检查；力/冲量/角线单位，预处理前后含义一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-R-ACCELERATION_SPRING",
+    "coverage_ids": [
+      "R-ACCELERATION_SPRING"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "单标志和互斥/依赖组合的数值行检查；力/冲量/角线单位，预处理前后含义一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-R-RESTITUTION",
+    "coverage_ids": [
+      "R-RESTITUTION"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "单标志和互斥/依赖组合的数值行检查；力/冲量/角线单位，预处理前后含义一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-R-KEEPBIAS",
+    "coverage_ids": [
+      "R-KEEPBIAS"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "单标志和互斥/依赖组合的数值行检查；力/冲量/角线单位，预处理前后含义一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-R-OUTPUT_FORCE",
+    "coverage_ids": [
+      "R-OUTPUT_FORCE"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "单标志和互斥/依赖组合的数值行检查；力/冲量/角线单位，预处理前后含义一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-R-HAS_DRIVE_LIMIT",
+    "coverage_ids": [
+      "R-HAS_DRIVE_LIMIT"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "单标志和互斥/依赖组合的数值行检查；力/冲量/角线单位，预处理前后含义一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-R-ANGULAR_CONSTRAINT",
+    "coverage_ids": [
+      "R-ANGULAR_CONSTRAINT"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "单标志和互斥/依赖组合的数值行检查；力/冲量/角线单位，预处理前后含义一致。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-H-NONE",
+    "coverage_ids": [
+      "H-NONE"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "相同物理输入映射为正确行类型；Bullet无该hint时明确不使用它的排序含义。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-H-SLERP_SPRING",
+    "coverage_ids": [
+      "H-SLERP_SPRING"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "相同物理输入映射为正确行类型；Bullet无该hint时明确不使用它的排序含义。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-H-ROTATIONAL_EQUALITY",
+    "coverage_ids": [
+      "H-ROTATIONAL_EQUALITY"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "相同物理输入映射为正确行类型；Bullet无该hint时明确不使用它的排序含义。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-H-ROTATIONAL_INEQUALITY",
+    "coverage_ids": [
+      "H-ROTATIONAL_INEQUALITY"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "相同物理输入映射为正确行类型；Bullet无该hint时明确不使用它的排序含义。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-H-EQUALITY",
+    "coverage_ids": [
+      "H-EQUALITY"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "相同物理输入映射为正确行类型；Bullet无该hint时明确不使用它的排序含义。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-H-INEQUALITY",
+    "coverage_ids": [
+      "H-INEQUALITY"
+    ],
+    "objects": "O-ROW",
+    "acceptance": "相同物理输入映射为正确行类型；Bullet无该hint时明确不使用它的排序含义。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-NONE",
+    "coverage_ids": [
+      "B-NONE"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-RB_CONTACT",
+    "coverage_ids": [
+      "B-RB_CONTACT"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-RB_1D",
+    "coverage_ids": [
+      "B-RB_1D"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-EXT_CONTACT",
+    "coverage_ids": [
+      "B-EXT_CONTACT"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-EXT_1D",
+    "coverage_ids": [
+      "B-EXT_1D"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-STATIC_CONTACT",
+    "coverage_ids": [
+      "B-STATIC_CONTACT"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-BLOCK_RB_CONTACT",
+    "coverage_ids": [
+      "B-BLOCK_RB_CONTACT"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-BLOCK_STATIC_RB_CONTACT",
+    "coverage_ids": [
+      "B-BLOCK_STATIC_RB_CONTACT"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-BLOCK_1D",
+    "coverage_ids": [
+      "B-BLOCK_1D"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-FRICTION",
+    "coverage_ids": [
+      "B-FRICTION"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-STATIC_FRICTION",
+    "coverage_ids": [
+      "B-STATIC_FRICTION"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-EXT_FRICTION",
+    "coverage_ids": [
+      "B-EXT_FRICTION"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-BLOCK_FRICTION",
+    "coverage_ids": [
+      "B-BLOCK_FRICTION"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-B-BLOCK_STATIC_FRICTION",
+    "coverage_ids": [
+      "B-BLOCK_STATIC_FRICTION"
+    ],
+    "objects": "O-BACKEND",
+    "acceptance": "分类到RB/MB/contact/friction路径，后端无能力时拒绝或明确fallback，不能静默丢行。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-S-FLAGS",
+    "coverage_ids": [
+      "S-FLAGS"
+    ],
+    "objects": "O-ENGINEERING",
+    "acceptance": "broken/collision/disable/visualization/extended limits/SLERP/preprocess/alwaysUpdate/drive unit标志逐项消费或说明无算法等价。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-S-FRAME",
+    "coverage_ids": [
+      "S-FRAME"
+    ],
+    "objects": "O-ENGINEERING",
+    "acceptance": "非identity COM、相反轴、坐标平移旋转、角unwrap、原点平移。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-S-LIFETIME",
+    "coverage_ids": [
+      "S-LIFETIME"
+    ],
+    "objects": "O-ENGINEERING",
+    "acceptance": "释放actor/joint、被引用gear/mimic/tendon、world移除无悬垂引用。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-S-FEEDBACK",
+    "coverage_ids": [
+      "S-FEEDBACK"
+    ],
+    "objects": "O-ENGINEERING",
+    "acceptance": "force/torque阈值分别换算，OUTPUT_FORCE和drive flag，break事件只一次。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-S-SERIALIZE",
+    "coverage_ids": [
+      "S-SERIALIZE"
+    ],
+    "objects": "O-ENGINEERING",
+    "acceptance": "追加类型ID、float/double、flags/targets/拓扑/持久状态保存；旧Bullet文件仍可读。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-S-CACHE",
+    "coverage_ids": [
+      "S-CACHE"
+    ],
+    "objects": "O-ENGINEERING",
+    "acceptance": "行增删/重排/参数突变清除失效缓存；zero response无除零。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-EX-ANISOTROPY",
+    "coverage_ids": [
+      "EX-ANISOTROPY"
+    ],
+    "objects": "O-REJECT",
+    "acceptance": "粒子表面重建与FEM公开anisotropic flag独立；不能用重建代码冒充FEM算子。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-SURFACE-ANISOTROPIC",
+    "coverage_ids": [
+      "F-SURFACE-ANISOTROPIC"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "在固定commit全仓库搜索消费点；若仍无实现则明确unsupported，不把设置flag当功能已实现。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-F-SURFACE-FLATTENING",
+    "coverage_ids": [
+      "F-SURFACE-FLATTENING"
+    ],
+    "objects": "O-FEM",
+    "acceptance": "同一弯曲rest mesh切换flag，静止角来自rest shape或0，两条初始化路径均验证。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  },
+  {
+    "id": "T-EX-OLD-FRICTION",
+    "coverage_ids": [
+      "EX-OLD-FRICTION"
+    ],
+    "objects": "O-REJECT",
+    "acceptance": "当前版API枚举仅PATCH；不会为已删除的eONE_DIRECTIONAL/eTWO_DIRECTIONAL/eIMPROVED_PATCH_FRICTION虚构当前接口。",
+    "common_suite": "G-VALIDATION + 适用的对象/生命周期/单位/后端矩阵",
+    "status": "planned_not_run"
+  }
+]

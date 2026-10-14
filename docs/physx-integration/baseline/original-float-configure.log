@@ -1,0 +1,24 @@
+COMMAND ["cmake", "-S", "/cnic/work/wangky/bullet3_baseline/2026-10-13/source-bullet-a3ebe727", "-B", "/cnic/work/wangky/bullet3_baseline/2026-10-13/build-original-float", "-DCMAKE_BUILD_TYPE=Release", "-DBUILD_SHARED_LIBS=OFF", "-DBUILD_BULLET2_DEMOS=OFF", "-DBUILD_OPENGL3_DEMOS=OFF", "-DBUILD_CPU_DEMOS=OFF", "-DBUILD_EXTRAS=OFF", "-DBUILD_UNIT_TESTS=ON", "-DBUILD_BULLET3=OFF", "-DINSTALL_LIBS=ON", "-DUSE_DOUBLE_PRECISION=OFF"]
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Linux
+-- Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY OPENGL_glx_LIBRARY OPENGL_INCLUDE_DIR)
+OPENGL NOT FOUND
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cnic/work/wangky/bullet3_baseline/2026-10-13/build-original-float

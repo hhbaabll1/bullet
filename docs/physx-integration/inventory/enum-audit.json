@@ -1,0 +1,1984 @@
+[
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 65,
+    "token": "eX",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:27"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 66,
+    "token": "eY",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:66"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 67,
+    "token": "eZ",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:67"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 68,
+    "token": "eTWIST",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:68"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 69,
+    "token": "eSWING1",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:69"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 70,
+    "token": "eSWING2",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:70"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 71,
+    "token": "eCOUNT",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:71"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 85,
+    "token": "eLOCKED",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:85"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 86,
+    "token": "eLIMITED",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:86"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 87,
+    "token": "eFREE",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:87"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 108,
+    "token": "eSWING_TWIST",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:108"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 116,
+    "token": "eSLERP",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:113"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 129,
+    "token": "eLEGACY",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:129"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 154,
+    "token": "eX",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:27"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 155,
+    "token": "eY",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:66"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 156,
+    "token": "eZ",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:67"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 165,
+    "token": "eSWING",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:69"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 173,
+    "token": "eTWIST",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:68"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 184,
+    "token": "eSLERP",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:113"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 191,
+    "token": "eSWING1",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:69"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 198,
+    "token": "eSWING2",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:70"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 200,
+    "token": "eCOUNT",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:71"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 213,
+    "token": "eACCELERATION",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:213"
+  },
+  {
+    "file": "physx/include/extensions/PxD6Joint.h",
+    "line": 226,
+    "token": "eOUTPUT_FORCE",
+    "coverage_patterns": [
+      "D6-*",
+      "J-D6"
+    ],
+    "source": "physx:physx/include/extensions/PxD6Joint.h:226"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 117,
+    "token": "eCONTACT_CONSTRAINT",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:117"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 118,
+    "token": "eJOINT_CONSTRAINT",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:118"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 161,
+    "token": "eDYNAMIC_BODY",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:161"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 162,
+    "token": "eSTATIC_BODY",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:162"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 163,
+    "token": "eKINEMATIC_BODY",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:163"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 164,
+    "token": "eARTICULATION",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:164"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 272,
+    "token": "eTWIST",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:272"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 273,
+    "token": "eSWING1",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:273"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 274,
+    "token": "eSWING2",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:274"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 275,
+    "token": "eX",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:27"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 276,
+    "token": "eY",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:273"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 277,
+    "token": "eZ",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:274"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 278,
+    "token": "eCOUNT",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:278"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 288,
+    "token": "eLOCKED",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:288"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 289,
+    "token": "eLIMITED",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:289"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 290,
+    "token": "eFREE",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:290"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 301,
+    "token": "eFIX",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:301"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 302,
+    "token": "ePRISMATIC",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:302"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 303,
+    "token": "eREVOLUTE",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:303"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 304,
+    "token": "eREVOLUTE_UNWRAPPED",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:304"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 305,
+    "token": "eSPHERICAL",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:305"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 306,
+    "token": "eUNDEFINED",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:306"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 314,
+    "token": "eFIX_BASE",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:314"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 315,
+    "token": "eDRIVE_LIMITS_ARE_FORCES",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:315"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 316,
+    "token": "eDISABLE_SELF_COLLISION",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:316"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 327,
+    "token": "eFORCE",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:327"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 328,
+    "token": "eACCELERATION",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:328"
+  },
+  {
+    "file": "physx/include/solver/PxSolverDefs.h",
+    "line": 329,
+    "token": "eNONE",
+    "coverage_patterns": [
+      "A-*",
+      "M-BASE",
+      "M-SELF-COLLISION"
+    ],
+    "source": "physx:physx/include/solver/PxSolverDefs.h:329"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 63,
+    "token": "eSPRING",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:63"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 64,
+    "token": "eACCELERATION_SPRING",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:64"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 65,
+    "token": "eRESTITUTION",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:63"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 66,
+    "token": "eKEEPBIAS",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:63"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 67,
+    "token": "eOUTPUT_FORCE",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:67"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 68,
+    "token": "eHAS_DRIVE_LIMIT",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:68"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 69,
+    "token": "eANGULAR_CONSTRAINT",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:69"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 83,
+    "token": "eNONE",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:83"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 84,
+    "token": "eACCELERATION1",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:84"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 85,
+    "token": "eSLERP_SPRING",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:85"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 86,
+    "token": "eACCELERATION2",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:86"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 87,
+    "token": "eACCELERATION3",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:87"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 88,
+    "token": "eROTATIONAL_EQUALITY",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:88"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 89,
+    "token": "eROTATIONAL_INEQUALITY",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:89"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 99,
+    "token": "eEQUALITY",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:99"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 109,
+    "token": "eINEQUALITY",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:109"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 236,
+    "token": "eLOCAL_FRAMES",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:236"
+  },
+  {
+    "file": "physx/include/PxConstraintDesc.h",
+    "line": 237,
+    "token": "eLIMITS",
+    "coverage_patterns": [
+      "R-*",
+      "H-*",
+      "X-CUSTOM"
+    ],
+    "source": "physx:physx/include/PxConstraintDesc.h:237"
+  },
+  {
+    "file": "physx/include/PxConstraint.h",
+    "line": 56,
+    "token": "eBROKEN",
+    "coverage_patterns": [
+      "S-FLAGS",
+      "S-FEEDBACK",
+      "S-CACHE"
+    ],
+    "source": "physx:physx/include/PxConstraint.h:50"
+  },
+  {
+    "file": "physx/include/PxConstraint.h",
+    "line": 57,
+    "token": "eCOLLISION_ENABLED",
+    "coverage_patterns": [
+      "S-FLAGS",
+      "S-FEEDBACK",
+      "S-CACHE"
+    ],
+    "source": "physx:physx/include/PxConstraint.h:57"
+  },
+  {
+    "file": "physx/include/PxConstraint.h",
+    "line": 58,
+    "token": "eVISUALIZATION",
+    "coverage_patterns": [
+      "S-FLAGS",
+      "S-FEEDBACK",
+      "S-CACHE"
+    ],
+    "source": "physx:physx/include/PxConstraint.h:58"
+  },
+  {
+    "file": "physx/include/PxConstraint.h",
+    "line": 59,
+    "token": "eDRIVE_LIMITS_ARE_FORCES",
+    "coverage_patterns": [
+      "S-FLAGS",
+      "S-FEEDBACK",
+      "S-CACHE"
+    ],
+    "source": "physx:physx/include/PxConstraint.h:59"
+  },
+  {
+    "file": "physx/include/PxConstraint.h",
+    "line": 60,
+    "token": "eIMPROVED_SLERP",
+    "coverage_patterns": [
+      "S-FLAGS",
+      "S-FEEDBACK",
+      "S-CACHE"
+    ],
+    "source": "physx:physx/include/PxConstraint.h:60"
+  },
+  {
+    "file": "physx/include/PxConstraint.h",
+    "line": 61,
+    "token": "eDISABLE_PREPROCESSING",
+    "coverage_patterns": [
+      "S-FLAGS",
+      "S-FEEDBACK",
+      "S-CACHE"
+    ],
+    "source": "physx:physx/include/PxConstraint.h:61"
+  },
+  {
+    "file": "physx/include/PxConstraint.h",
+    "line": 62,
+    "token": "eENABLE_EXTENDED_LIMITS",
+    "coverage_patterns": [
+      "S-FLAGS",
+      "S-FEEDBACK",
+      "S-CACHE"
+    ],
+    "source": "physx:physx/include/PxConstraint.h:62"
+  },
+  {
+    "file": "physx/include/PxConstraint.h",
+    "line": 63,
+    "token": "eGPU_COMPATIBLE",
+    "coverage_patterns": [
+      "S-FLAGS",
+      "S-FEEDBACK",
+      "S-CACHE"
+    ],
+    "source": "physx:physx/include/PxConstraint.h:63"
+  },
+  {
+    "file": "physx/include/PxConstraint.h",
+    "line": 64,
+    "token": "eALWAYS_UPDATE",
+    "coverage_patterns": [
+      "S-FLAGS",
+      "S-FEEDBACK",
+      "S-CACHE"
+    ],
+    "source": "physx:physx/include/PxConstraint.h:64"
+  },
+  {
+    "file": "physx/include/PxConstraint.h",
+    "line": 65,
+    "token": "eDISABLE_CONSTRAINT",
+    "coverage_patterns": [
+      "S-FLAGS",
+      "S-FEEDBACK",
+      "S-CACHE"
+    ],
+    "source": "physx:physx/include/PxConstraint.h:65"
+  },
+  {
+    "file": "physx/include/PxMaterial.h",
+    "line": 53,
+    "token": "eDISABLE_FRICTION",
+    "coverage_patterns": [
+      "K-*",
+      "EX-OLD-FRICTION"
+    ],
+    "source": "physx:physx/include/PxMaterial.h:53"
+  },
+  {
+    "file": "physx/include/PxMaterial.h",
+    "line": 74,
+    "token": "eDISABLE_STRONG_FRICTION",
+    "coverage_patterns": [
+      "K-*",
+      "EX-OLD-FRICTION"
+    ],
+    "source": "physx:physx/include/PxMaterial.h:74"
+  },
+  {
+    "file": "physx/include/PxMaterial.h",
+    "line": 84,
+    "token": "eCOMPLIANT_ACCELERATION_SPRING",
+    "coverage_patterns": [
+      "K-*",
+      "EX-OLD-FRICTION"
+    ],
+    "source": "physx:physx/include/PxMaterial.h:84"
+  },
+  {
+    "file": "physx/include/PxMaterial.h",
+    "line": 127,
+    "token": "eAVERAGE",
+    "coverage_patterns": [
+      "K-*",
+      "EX-OLD-FRICTION"
+    ],
+    "source": "physx:physx/include/PxMaterial.h:107"
+  },
+  {
+    "file": "physx/include/PxMaterial.h",
+    "line": 128,
+    "token": "eMIN",
+    "coverage_patterns": [
+      "K-*",
+      "EX-OLD-FRICTION"
+    ],
+    "source": "physx:physx/include/PxMaterial.h:108"
+  },
+  {
+    "file": "physx/include/PxMaterial.h",
+    "line": 129,
+    "token": "eMULTIPLY",
+    "coverage_patterns": [
+      "K-*",
+      "EX-OLD-FRICTION"
+    ],
+    "source": "physx:physx/include/PxMaterial.h:109"
+  },
+  {
+    "file": "physx/include/PxMaterial.h",
+    "line": 130,
+    "token": "eMAX",
+    "coverage_patterns": [
+      "K-*",
+      "EX-OLD-FRICTION"
+    ],
+    "source": "physx:physx/include/PxMaterial.h:110"
+  },
+  {
+    "file": "physx/include/PxMaterial.h",
+    "line": 131,
+    "token": "eN_VALUES",
+    "coverage_patterns": [
+      "K-*",
+      "EX-OLD-FRICTION"
+    ],
+    "source": "physx:physx/include/PxMaterial.h:131"
+  },
+  {
+    "file": "physx/include/PxMaterial.h",
+    "line": 132,
+    "token": "ePAD_32",
+    "coverage_patterns": [
+      "K-*",
+      "EX-OLD-FRICTION"
+    ],
+    "source": "physx:physx/include/PxMaterial.h:132"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 73,
+    "token": "ePATCH",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:56"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 74,
+    "token": "eFRICTION_COUNT",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:67"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 89,
+    "token": "ePGS",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:81"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 90,
+    "token": "eTGS",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:83"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 115,
+    "token": "eENABLE_ACTIVE_ACTORS",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:115"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 129,
+    "token": "eENABLE_CCD",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:122"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 150,
+    "token": "eDISABLE_CCD_RESWEEP",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:127"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 159,
+    "token": "eENABLE_PCM",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:159"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 169,
+    "token": "eDISABLE_CONTACT_REPORT_BUFFER_RESIZE",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:169"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 181,
+    "token": "eDISABLE_CONTACT_CACHE",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:181"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 198,
+    "token": "eREQUIRE_RW_LOCK",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:198"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 207,
+    "token": "eENABLE_STABILIZATION",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:207"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 217,
+    "token": "eENABLE_AVERAGE_POINT",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:217"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 231,
+    "token": "eEXCLUDE_KINEMATICS_FROM_ACTIVE_ACTORS",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:231"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 239,
+    "token": "eENABLE_GPU_DYNAMICS",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:239"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 262,
+    "token": "eENABLE_ENHANCED_DETERMINISM",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:262"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 278,
+    "token": "eENABLE_FRICTION_EVERY_ITERATION",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:65"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 294,
+    "token": "eENABLE_EXTERNAL_FORCES_EVERY_ITERATION_TGS",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:294"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 313,
+    "token": "eENABLE_DIRECT_GPU_API",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:313"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 337,
+    "token": "eENABLE_BODY_ACCELERATIONS",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:337"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 344,
+    "token": "eENABLE_SOLVER_RESIDUAL_REPORTING",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:344"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 371,
+    "token": "eSOLVE_ARTICULATION_CONTACT_LAST",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:371"
+  },
+  {
+    "file": "physx/include/PxSceneDesc.h",
+    "line": 373,
+    "token": "eMUTABLE_FLAGS",
+    "coverage_patterns": [
+      "K-*",
+      "B-*",
+      "M-SLEEP"
+    ],
+    "source": "physx:physx/include/PxSceneDesc.h:373"
+  },
+  {
+    "file": "physx/include/extensions/PxRevoluteJoint.h",
+    "line": 64,
+    "token": "eLIMIT_ENABLED",
+    "coverage_patterns": [
+      "J-REV*"
+    ],
+    "source": "physx:physx/include/extensions/PxRevoluteJoint.h:64"
+  },
+  {
+    "file": "physx/include/extensions/PxRevoluteJoint.h",
+    "line": 65,
+    "token": "eDRIVE_ENABLED",
+    "coverage_patterns": [
+      "J-REV*"
+    ],
+    "source": "physx:physx/include/extensions/PxRevoluteJoint.h:65"
+  },
+  {
+    "file": "physx/include/extensions/PxRevoluteJoint.h",
+    "line": 66,
+    "token": "eDRIVE_FREESPIN",
+    "coverage_patterns": [
+      "J-REV*"
+    ],
+    "source": "physx:physx/include/extensions/PxRevoluteJoint.h:66"
+  },
+  {
+    "file": "physx/include/extensions/PxPrismaticJoint.h",
+    "line": 65,
+    "token": "eLIMIT_ENABLED",
+    "coverage_patterns": [
+      "J-PRISM*"
+    ],
+    "source": "physx:physx/include/extensions/PxPrismaticJoint.h:65"
+  },
+  {
+    "file": "physx/include/extensions/PxSphericalJoint.h",
+    "line": 65,
+    "token": "eLIMIT_ENABLED",
+    "coverage_patterns": [
+      "J-SPHERE*"
+    ],
+    "source": "physx:physx/include/extensions/PxSphericalJoint.h:65"
+  },
+  {
+    "file": "physx/include/extensions/PxDistanceJoint.h",
+    "line": 64,
+    "token": "eMAX_DISTANCE_ENABLED",
+    "coverage_patterns": [
+      "J-DIST*"
+    ],
+    "source": "physx:physx/include/extensions/PxDistanceJoint.h:64"
+  },
+  {
+    "file": "physx/include/extensions/PxDistanceJoint.h",
+    "line": 65,
+    "token": "eMIN_DISTANCE_ENABLED",
+    "coverage_patterns": [
+      "J-DIST*"
+    ],
+    "source": "physx:physx/include/extensions/PxDistanceJoint.h:65"
+  },
+  {
+    "file": "physx/include/extensions/PxDistanceJoint.h",
+    "line": 66,
+    "token": "eSPRING_ENABLED",
+    "coverage_patterns": [
+      "J-DIST*"
+    ],
+    "source": "physx:physx/include/extensions/PxDistanceJoint.h:66"
+  },
+  {
+    "file": "physx/include/PxDeformableAttachment.h",
+    "line": 74,
+    "token": "eVERTEX",
+    "coverage_patterns": [
+      "AT-*",
+      "EX-AT-*"
+    ],
+    "source": "physx:physx/include/PxDeformableAttachment.h:74"
+  },
+  {
+    "file": "physx/include/PxDeformableAttachment.h",
+    "line": 75,
+    "token": "eTRIANGLE",
+    "coverage_patterns": [
+      "AT-*",
+      "EX-AT-*"
+    ],
+    "source": "physx:physx/include/PxDeformableAttachment.h:75"
+  },
+  {
+    "file": "physx/include/PxDeformableAttachment.h",
+    "line": 76,
+    "token": "eTETRAHEDRON",
+    "coverage_patterns": [
+      "AT-*",
+      "EX-AT-*"
+    ],
+    "source": "physx:physx/include/PxDeformableAttachment.h:76"
+  },
+  {
+    "file": "physx/include/PxDeformableAttachment.h",
+    "line": 77,
+    "token": "eRIGID",
+    "coverage_patterns": [
+      "AT-*",
+      "EX-AT-*"
+    ],
+    "source": "physx:physx/include/PxDeformableAttachment.h:77"
+  },
+  {
+    "file": "physx/include/PxDeformableAttachment.h",
+    "line": 78,
+    "token": "eWORLD",
+    "coverage_patterns": [
+      "AT-*",
+      "EX-AT-*"
+    ],
+    "source": "physx:physx/include/PxDeformableAttachment.h:78"
+  },
+  {
+    "file": "physx/include/PxDeformableAttachment.h",
+    "line": 79,
+    "token": "eUNDEFINED",
+    "coverage_patterns": [
+      "AT-*",
+      "EX-AT-*"
+    ],
+    "source": "physx:physx/include/PxDeformableAttachment.h:79"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeMaterial.h",
+    "line": 43,
+    "token": "eCO_ROTATIONAL",
+    "coverage_patterns": [
+      "F-VOLUME-*"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeMaterial.h:43"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeMaterial.h",
+    "line": 44,
+    "token": "eNEO_HOOKEAN",
+    "coverage_patterns": [
+      "F-VOLUME-*"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeMaterial.h:44"
+  },
+  {
+    "file": "physx/include/PxDeformableSurfaceFlag.h",
+    "line": 45,
+    "token": "eUSE_ANISOTROPIC_MODEL",
+    "coverage_patterns": [
+      "F-SURFACE-*"
+    ],
+    "source": "physx:physx/include/PxDeformableSurfaceFlag.h:45"
+  },
+  {
+    "file": "physx/include/PxDeformableSurfaceFlag.h",
+    "line": 46,
+    "token": "eENABLE_FLATTENING",
+    "coverage_patterns": [
+      "F-SURFACE-*"
+    ],
+    "source": "physx:physx/include/PxDeformableSurfaceFlag.h:46"
+  },
+  {
+    "file": "physx/include/PxDeformableSurfaceFlag.h",
+    "line": 59,
+    "token": "eNONE",
+    "coverage_patterns": [
+      "F-SURFACE-*"
+    ],
+    "source": "physx:physx/include/PxDeformableSurfaceFlag.h:59"
+  },
+  {
+    "file": "physx/include/PxDeformableSurfaceFlag.h",
+    "line": 60,
+    "token": "ePOSITION_INVMASS",
+    "coverage_patterns": [
+      "F-SURFACE-*"
+    ],
+    "source": "physx:physx/include/PxDeformableSurfaceFlag.h:60"
+  },
+  {
+    "file": "physx/include/PxDeformableSurfaceFlag.h",
+    "line": 61,
+    "token": "eVELOCITY",
+    "coverage_patterns": [
+      "F-SURFACE-*"
+    ],
+    "source": "physx:physx/include/PxDeformableSurfaceFlag.h:61"
+  },
+  {
+    "file": "physx/include/PxDeformableSurfaceFlag.h",
+    "line": 62,
+    "token": "eREST_POSITION",
+    "coverage_patterns": [
+      "F-SURFACE-*"
+    ],
+    "source": "physx:physx/include/PxDeformableSurfaceFlag.h:62"
+  },
+  {
+    "file": "physx/include/PxDeformableSurfaceFlag.h",
+    "line": 63,
+    "token": "eALL",
+    "coverage_patterns": [
+      "F-SURFACE-*"
+    ],
+    "source": "physx:physx/include/PxDeformableSurfaceFlag.h:63"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 47,
+    "token": "eCOMPUTE_STRESS_TENSOR",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:47"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 48,
+    "token": "ePARTIALLY_KINEMATIC",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:48"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 49,
+    "token": "eDISPLAY_SIM_MESH",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:49"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 50,
+    "token": "eDISABLE_SELF_COLLISION",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:50"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 51,
+    "token": "eENABLE_CCD",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:51"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 52,
+    "token": "eKINEMATIC",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:52"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 67,
+    "token": "eNONE",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:67"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 69,
+    "token": "ePOSITION_INVMASS",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:69"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 70,
+    "token": "eSIM_POSITION_INVMASS",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:70"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 71,
+    "token": "eSIM_VELOCITY",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:71"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 72,
+    "token": "eREST_POSITION_INVMASS",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:72"
+  },
+  {
+    "file": "physx/include/PxDeformableVolumeFlag.h",
+    "line": 74,
+    "token": "eALL",
+    "coverage_patterns": [
+      "F-KINEMATIC",
+      "F-VOLUME-CONTACT"
+    ],
+    "source": "physx:physx/include/PxDeformableVolumeFlag.h:74"
+  },
+  {
+    "file": "physx/include/PxDeformableBodyFlag.h",
+    "line": 47,
+    "token": "eDISABLE_SELF_COLLISION",
+    "coverage_patterns": [
+      "F-SLEEP",
+      "F-FILTER"
+    ],
+    "source": "physx:physx/include/PxDeformableBodyFlag.h:47"
+  },
+  {
+    "file": "physx/include/PxDeformableBodyFlag.h",
+    "line": 48,
+    "token": "eENABLE_SPECULATIVE_CCD",
+    "coverage_patterns": [
+      "F-SLEEP",
+      "F-FILTER"
+    ],
+    "source": "physx:physx/include/PxDeformableBodyFlag.h:48"
+  },
+  {
+    "file": "physx/include/PxDeformableBodyFlag.h",
+    "line": 49,
+    "token": "eKINEMATIC",
+    "coverage_patterns": [
+      "F-SLEEP",
+      "F-FILTER"
+    ],
+    "source": "physx:physx/include/PxDeformableBodyFlag.h:49"
+  },
+  {
+    "file": "physx/include/PxParticleSystemFlag.h",
+    "line": 49,
+    "token": "eNONE",
+    "coverage_patterns": [
+      "P-PHASE",
+      "P-BUFFER"
+    ],
+    "source": "physx:physx/include/PxParticleSystemFlag.h:49"
+  },
+  {
+    "file": "physx/include/PxParticleSystemFlag.h",
+    "line": 51,
+    "token": "eUPDATE_POSITION",
+    "coverage_patterns": [
+      "P-PHASE",
+      "P-BUFFER"
+    ],
+    "source": "physx:physx/include/PxParticleSystemFlag.h:51"
+  },
+  {
+    "file": "physx/include/PxParticleSystemFlag.h",
+    "line": 52,
+    "token": "eUPDATE_VELOCITY",
+    "coverage_patterns": [
+      "P-PHASE",
+      "P-BUFFER"
+    ],
+    "source": "physx:physx/include/PxParticleSystemFlag.h:52"
+  },
+  {
+    "file": "physx/include/PxParticleSystemFlag.h",
+    "line": 53,
+    "token": "eUPDATE_PHASE",
+    "coverage_patterns": [
+      "P-PHASE",
+      "P-BUFFER"
+    ],
+    "source": "physx:physx/include/PxParticleSystemFlag.h:53"
+  },
+  {
+    "file": "physx/include/PxParticleSystemFlag.h",
+    "line": 54,
+    "token": "eUPDATE_RESTPOSITION",
+    "coverage_patterns": [
+      "P-PHASE",
+      "P-BUFFER"
+    ],
+    "source": "physx:physx/include/PxParticleSystemFlag.h:54"
+  },
+  {
+    "file": "physx/include/PxParticleSystemFlag.h",
+    "line": 55,
+    "token": "eUPDATE_CLOTH",
+    "coverage_patterns": [
+      "P-PHASE",
+      "P-BUFFER"
+    ],
+    "source": "physx:physx/include/PxParticleSystemFlag.h:55"
+  },
+  {
+    "file": "physx/include/PxParticleSystemFlag.h",
+    "line": 56,
+    "token": "eUPDATE_RIGID",
+    "coverage_patterns": [
+      "P-PHASE",
+      "P-BUFFER"
+    ],
+    "source": "physx:physx/include/PxParticleSystemFlag.h:56"
+  },
+  {
+    "file": "physx/include/PxParticleSystemFlag.h",
+    "line": 57,
+    "token": "eUPDATE_DIFFUSE_PARAM",
+    "coverage_patterns": [
+      "P-PHASE",
+      "P-BUFFER"
+    ],
+    "source": "physx:physx/include/PxParticleSystemFlag.h:57"
+  },
+  {
+    "file": "physx/include/PxParticleSystemFlag.h",
+    "line": 58,
+    "token": "eUPDATE_ATTACHMENTS",
+    "coverage_patterns": [
+      "P-PHASE",
+      "P-BUFFER"
+    ],
+    "source": "physx:physx/include/PxParticleSystemFlag.h:58"
+  },
+  {
+    "file": "physx/include/PxParticleSystemFlag.h",
+    "line": 60,
+    "token": "eALL",
+    "coverage_patterns": [
+      "P-PHASE",
+      "P-BUFFER"
+    ],
+    "source": "physx:physx/include/PxParticleSystemFlag.h:60"
+  },
+  {
+    "file": "physx/include/PxParticleSystemFlag.h",
+    "line": 61,
+    "token": "eUPDATE_POSITION",
+    "coverage_patterns": [
+      "P-PHASE",
+      "P-BUFFER"
+    ],
+    "source": "physx:physx/include/PxParticleSystemFlag.h:51"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 71,
+    "token": "eKINEMATIC",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:71"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 82,
+    "token": "eUSE_KINEMATIC_TARGET_FOR_SCENE_QUERIES",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:82"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 94,
+    "token": "eENABLE_CCD",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:67"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 105,
+    "token": "eENABLE_CCD_FRICTION",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:105"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 113,
+    "token": "eENABLE_SPECULATIVE_CCD",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:92"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 125,
+    "token": "eENABLE_POSE_INTEGRATION_PREVIEW",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:125"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 130,
+    "token": "eENABLE_CCD_MAX_CONTACT_IMPULSE",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:130"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 142,
+    "token": "eRETAIN_ACCELERATIONS",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:142"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 153,
+    "token": "eFORCE_KINE_KINE_NOTIFICATIONS",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:153"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 162,
+    "token": "eFORCE_KINE_KINE_NOTIFICATIONS",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:153"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 175,
+    "token": "eFORCE_STATIC_KINE_NOTIFICATIONS",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:175"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 180,
+    "token": "eENABLE_GYROSCOPIC_FORCES",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:180"
+  },
+  {
+    "file": "physx/include/PxRigidBody.h",
+    "line": 185,
+    "token": "eRESERVED",
+    "coverage_patterns": [
+      "M-*",
+      "K-CCD"
+    ],
+    "source": "physx:physx/include/PxRigidBody.h:185"
+  },
+  {
+    "file": "physx/include/PxRigidDynamic.h",
+    "line": 49,
+    "token": "eLOCK_LINEAR_X",
+    "coverage_patterns": [
+      "M-*"
+    ],
+    "source": "physx:physx/include/PxRigidDynamic.h:49"
+  },
+  {
+    "file": "physx/include/PxRigidDynamic.h",
+    "line": 50,
+    "token": "eLOCK_LINEAR_Y",
+    "coverage_patterns": [
+      "M-*"
+    ],
+    "source": "physx:physx/include/PxRigidDynamic.h:50"
+  },
+  {
+    "file": "physx/include/PxRigidDynamic.h",
+    "line": 51,
+    "token": "eLOCK_LINEAR_Z",
+    "coverage_patterns": [
+      "M-*"
+    ],
+    "source": "physx:physx/include/PxRigidDynamic.h:51"
+  },
+  {
+    "file": "physx/include/PxRigidDynamic.h",
+    "line": 52,
+    "token": "eLOCK_ANGULAR_X",
+    "coverage_patterns": [
+      "M-*"
+    ],
+    "source": "physx:physx/include/PxRigidDynamic.h:52"
+  },
+  {
+    "file": "physx/include/PxRigidDynamic.h",
+    "line": 53,
+    "token": "eLOCK_ANGULAR_Y",
+    "coverage_patterns": [
+      "M-*"
+    ],
+    "source": "physx:physx/include/PxRigidDynamic.h:53"
+  },
+  {
+    "file": "physx/include/PxRigidDynamic.h",
+    "line": 54,
+    "token": "eLOCK_ANGULAR_Z",
+    "coverage_patterns": [
+      "M-*"
+    ],
+    "source": "physx:physx/include/PxRigidDynamic.h:54"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 40,
+    "token": "DY_SC_TYPE_NONE",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:40"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 42,
+    "token": "DY_SC_TYPE_RB_CONTACT",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:42"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 43,
+    "token": "DY_SC_TYPE_RB_1D",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:43"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 44,
+    "token": "DY_SC_TYPE_EXT_CONTACT",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:44"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 45,
+    "token": "DY_SC_TYPE_EXT_1D",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:45"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 46,
+    "token": "DY_SC_TYPE_STATIC_CONTACT",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:46"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 47,
+    "token": "DY_SC_TYPE_BLOCK_RB_CONTACT",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:47"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 48,
+    "token": "DY_SC_TYPE_BLOCK_STATIC_RB_CONTACT",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:48"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 49,
+    "token": "DY_SC_TYPE_BLOCK_1D",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:49"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 51,
+    "token": "DY_SC_TYPE_FRICTION",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:51"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 52,
+    "token": "DY_SC_TYPE_STATIC_FRICTION",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:52"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 53,
+    "token": "DY_SC_TYPE_EXT_FRICTION",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:53"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 54,
+    "token": "DY_SC_TYPE_BLOCK_FRICTION",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:54"
+  },
+  {
+    "file": "physx/source/lowleveldynamics/src/DySolverConstraintTypes.h",
+    "line": 55,
+    "token": "DY_SC_TYPE_BLOCK_STATIC_FRICTION",
+    "coverage_patterns": [
+      "B-*"
+    ],
+    "source": "physx:physx/source/lowleveldynamics/src/DySolverConstraintTypes.h:55"
+  }
+]

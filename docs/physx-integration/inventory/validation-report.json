@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "coverage_items": 193,
+  "test_designs": 193,
+  "source_references": 1449,
+  "git_source_files_verified": 134,
+  "verification_scope": "inventory structure + specified pinned source Git blobs; engine tests not run",
+  "errors": []
+}

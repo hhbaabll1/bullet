@@ -1,0 +1,50 @@
+[
+  {
+    "precision": "float",
+    "source_commit": "a3ebe727e0bc8d4e780e9c8fb90f512769ca4299",
+    "phases": [
+      {
+        "phase": "configure",
+        "exit_code": 0,
+        "seconds": 0.85,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-13/original-float-configure.log"
+      },
+      {
+        "phase": "build",
+        "exit_code": 0,
+        "seconds": 12.23,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-13/original-float-build.log"
+      },
+      {
+        "phase": "ctest",
+        "exit_code": 0,
+        "seconds": 0.04,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-13/original-float-ctest.log"
+      }
+    ]
+  },
+  {
+    "precision": "double",
+    "source_commit": "a3ebe727e0bc8d4e780e9c8fb90f512769ca4299",
+    "phases": [
+      {
+        "phase": "configure",
+        "exit_code": 0,
+        "seconds": 0.83,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-13/original-double-configure.log"
+      },
+      {
+        "phase": "build",
+        "exit_code": 0,
+        "seconds": 12.14,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-13/original-double-build.log"
+      },
+      {
+        "phase": "ctest",
+        "exit_code": 0,
+        "seconds": 0.04,
+        "log": "/cnic/work/wangky/bullet3_baseline/2026-10-13/original-double-ctest.log"
+      }
+    ]
+  }
+]
