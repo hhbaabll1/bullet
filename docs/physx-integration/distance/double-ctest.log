@@ -1,0 +1,60 @@
+Internal ctest changing into directory: /cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/build-verified-double
+Test project /cnic/work/wangky/bullet3_baseline/2026-10-14-interfaces/build-verified-double
+      Start  1: Test_Collision_PASS
+ 1/27 Test  #1: Test_Collision_PASS ........................   Passed    0.01 sec
+      Start  2: Test_btKinematicCharacterController_PASS
+ 2/27 Test  #2: Test_btKinematicCharacterController_PASS ...   Passed    0.00 sec
+      Start  3: Test_BulletDynamics_PASS
+ 3/27 Test  #3: Test_BulletDynamics_PASS ...................   Passed    0.01 sec
+      Start  4: ConstraintInterface_math
+ 4/27 Test  #4: ConstraintInterface_math ...................   Passed    0.01 sec
+      Start  5: ConstraintInterface_snapshot
+ 5/27 Test  #5: ConstraintInterface_snapshot ...............   Passed    0.00 sec
+      Start  6: ConstraintInterface_graph
+ 6/27 Test  #6: ConstraintInterface_graph ..................   Passed    0.00 sec
+      Start  7: ConstraintInterface_rigid_rows
+ 7/27 Test  #7: ConstraintInterface_rigid_rows .............   Passed    0.00 sec
+      Start  8: ConstraintInterface_rigid_world
+ 8/27 Test  #8: ConstraintInterface_rigid_world ............   Passed    0.00 sec
+      Start  9: ConstraintInterface_multibody_world
+ 9/27 Test  #9: ConstraintInterface_multibody_world ........   Passed    0.00 sec
+      Start 10: ConstraintInterface_rejected
+10/27 Test #10: ConstraintInterface_rejected ...............   Passed    0.00 sec
+      Start 11: ConstraintInterface_element
+11/27 Test #11: ConstraintInterface_element ................   Passed    0.00 sec
+      Start 12: DistanceConstraint_rows
+12/27 Test #12: DistanceConstraint_rows ....................   Passed    0.00 sec
+      Start 13: DistanceConstraint_rigid
+13/27 Test #13: DistanceConstraint_rigid ...................   Passed    0.00 sec
+      Start 14: DistanceConstraint_rigid_modes
+14/27 Test #14: DistanceConstraint_rigid_modes .............   Passed    0.00 sec
+      Start 15: DistanceConstraint_rigid_offset
+15/27 Test #15: DistanceConstraint_rigid_offset ............   Passed    0.00 sec
+      Start 16: DistanceConstraint_spring
+16/27 Test #16: DistanceConstraint_spring ..................   Passed    0.00 sec
+      Start 17: DistanceConstraint_break_scale
+17/27 Test #17: DistanceConstraint_break_scale .............   Passed    0.00 sec
+      Start 18: DistanceConstraint_zero_response
+18/27 Test #18: DistanceConstraint_zero_response ...........   Passed    0.00 sec
+      Start 19: DistanceConstraint_multibody
+19/27 Test #19: DistanceConstraint_multibody ...............   Passed    0.00 sec
+      Start 20: DistanceConstraint_multibody_link
+20/27 Test #20: DistanceConstraint_multibody_link ..........   Passed    0.01 sec
+      Start 21: DistanceConstraint_multibody_mixed
+21/27 Test #21: DistanceConstraint_multibody_mixed .........   Passed    0.00 sec
+      Start 22: DistanceConstraint_multibody_same_tree
+22/27 Test #22: DistanceConstraint_multibody_same_tree .....   Passed    0.00 sec
+      Start 23: DistanceConstraint_factory
+23/27 Test #23: DistanceConstraint_factory .................   Passed    0.00 sec
+      Start 24: DistanceConstraint_factory_pair
+24/27 Test #24: DistanceConstraint_factory_pair ............   Passed    0.00 sec
+      Start 25: DistanceConstraint_factory_mixed
+25/27 Test #25: DistanceConstraint_factory_mixed ...........   Passed    0.00 sec
+      Start 26: DistanceConstraint_graph
+26/27 Test #26: DistanceConstraint_graph ...................   Passed    0.00 sec
+      Start 27: DistanceConstraint_invalid
+27/27 Test #27: DistanceConstraint_invalid .................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 27
+
+Total Test time (real) =   0.11 sec

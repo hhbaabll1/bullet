@@ -3,5 +3,5 @@ IF(BUILD_BULLET3)
 	SUBDIRS(  InverseDynamics SharedMemory )
 ENDIF(BUILD_BULLET3)
 
-SUBDIRS(  gtest-1.7.0 collision BulletDynamics ConstraintInterface )
+SUBDIRS(  gtest-1.7.0 collision BulletDynamics ConstraintInterface DistanceConstraint )
 

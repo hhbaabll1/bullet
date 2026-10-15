@@ -3,8 +3,10 @@ INCLUDE_DIRECTORIES( ${BULLET_PHYSICS_SOURCE_DIR}/src  )
 
 
 SET(BulletDynamics_SRCS
+	ConstraintSolver/btDistanceConstraint.cpp
 	ConstraintSolver/btConstraintExtension.cpp
 	ConstraintSolver/btRowDescriptorConstraint.cpp
+	Featherstone/btMultiBodyDistanceConstraint.cpp
 	Featherstone/btMultiBodyRowDescriptorConstraint.cpp
 	Character/btKinematicCharacterController.cpp
 	ConstraintSolver/btConeTwistConstraint.cpp
@@ -56,6 +58,7 @@ SET(Root_HDRS
 	../btBulletCollisionCommon.h
 )
 SET(ConstraintSolver_HDRS
+	ConstraintSolver/btDistanceConstraint.h
 	ConstraintSolver/btConstraintExtension.h
 	ConstraintSolver/btRowDescriptorConstraint.h
 	ConstraintSolver/btConeTwistConstraint.h
@@ -97,6 +100,7 @@ SET(Vehicle_HDRS
 )
 
 SET(Featherstone_HDRS
+	Featherstone/btMultiBodyDistanceConstraint.h
 	Featherstone/btMultiBodyRowDescriptorConstraint.h
 	Featherstone/btMultiBody.h
 	Featherstone/btMultiBodyConstraint.h

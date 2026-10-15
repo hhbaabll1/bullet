@@ -1,0 +1,7 @@
+INCLUDE_DIRECTORIES(${BULLET_PHYSICS_SOURCE_DIR}/src)
+ADD_EXECUTABLE(Test_DistanceConstraint test_distance_constraint.cpp)
+SET_TARGET_PROPERTIES(Test_DistanceConstraint PROPERTIES CXX_STANDARD 11 CXX_STANDARD_REQUIRED YES)
+TARGET_LINK_LIBRARIES(Test_DistanceConstraint BulletDynamics BulletCollision LinearMath)
+FOREACH(case_name rows rigid rigid_modes rigid_offset spring break_scale zero_response multibody multibody_link multibody_mixed multibody_same_tree factory factory_pair factory_mixed graph invalid)
+    ADD_TEST(NAME DistanceConstraint_${case_name} COMMAND Test_DistanceConstraint ${case_name})
+ENDFOREACH()

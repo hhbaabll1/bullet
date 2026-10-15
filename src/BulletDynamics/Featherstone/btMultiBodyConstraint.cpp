@@ -64,6 +64,7 @@ btScalar btMultiBodyConstraint::fillMultiBodyConstraint(btMultiBodySolverConstra
 														bool isFriction, btScalar desiredVelocity, btScalar cfmSlip,
 														btScalar damping)
 {
+	solverConstraint.m_linearResponseOffsetA = solverConstraint.m_linearResponseOffsetB = 0;
 	solverConstraint.m_multiBodyA = m_bodyA;
 	solverConstraint.m_multiBodyB = m_bodyB;
 	solverConstraint.m_linkA = m_linkA;

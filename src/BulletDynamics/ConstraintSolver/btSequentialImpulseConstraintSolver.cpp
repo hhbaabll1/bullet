@@ -76,6 +76,38 @@ static btScalar gResolveSingleConstraintRowGeneric_scalar_reference(btSolverBody
 	return deltaImpulse * (1. / c.m_jacDiagABInv);
 }
 
+static btScalar gResolveSingleConstraintRowGeneric_extension(btSolverBody& bodyA, btSolverBody& bodyB, const btSolverConstraint& c)
+{
+	btScalar deltaImpulse = c.m_rhs - btScalar(c.m_appliedImpulse) * c.m_cfm;
+	const btScalar deltaVel1Dotn = c.m_contactNormal1.dot(bodyA.internalGetDeltaLinearVelocity()) + c.m_relpos1CrossNormal.dot(bodyA.internalGetDeltaAngularVelocity());
+	const btScalar deltaVel2Dotn = c.m_contactNormal2.dot(bodyB.internalGetDeltaLinearVelocity()) + c.m_relpos2CrossNormal.dot(bodyB.internalGetDeltaAngularVelocity());
+
+	//	const btScalar delta_rel_vel	=	deltaVel1Dotn-deltaVel2Dotn;
+	deltaImpulse -= deltaVel1Dotn * c.m_jacDiagABInv;
+	deltaImpulse -= deltaVel2Dotn * c.m_jacDiagABInv;
+
+	const btScalar sum = btScalar(c.m_appliedImpulse) + deltaImpulse;
+	if (sum < c.m_lowerLimit)
+	{
+		deltaImpulse = c.m_lowerLimit - c.m_appliedImpulse;
+		c.m_appliedImpulse = c.m_lowerLimit;
+	}
+	else if (sum > c.m_upperLimit)
+	{
+		deltaImpulse = c.m_upperLimit - c.m_appliedImpulse;
+		c.m_appliedImpulse = c.m_upperLimit;
+	}
+	else
+	{
+		c.m_appliedImpulse = sum;
+	}
+
+	bodyA.internalApplyImpulse(c.m_contactNormal1 * bodyA.internalGetInvMass() * (1 + c.m_linearResponseOffsetA), c.m_angularComponentA, deltaImpulse);
+	bodyB.internalApplyImpulse(c.m_contactNormal2 * bodyB.internalGetInvMass() * (1 + c.m_linearResponseOffsetB), c.m_angularComponentB, deltaImpulse);
+
+	return deltaImpulse * (1. / c.m_jacDiagABInv);
+}
+
 static btScalar gResolveSingleConstraintRowLowerLimit_scalar_reference(btSolverBody& bodyA, btSolverBody& bodyB, const btSolverConstraint& c)
 {
 	btScalar deltaImpulse = c.m_rhs - btScalar(c.m_appliedImpulse) * c.m_cfm;
@@ -262,13 +294,15 @@ static btScalar gResolveSingleConstraintRowLowerLimit_sse4_1_fma3(btSolverBody& 
 
 btScalar btSequentialImpulseConstraintSolver::resolveSingleConstraintRowGenericSIMD(btSolverBody& bodyA, btSolverBody& bodyB, const btSolverConstraint& c)
 {
-	return m_resolveSingleConstraintRowGeneric(bodyA, bodyB, c);
+	if (c.m_jacDiagABInv == 0) return 0;
+	return (c.m_linearResponseOffsetA != 0 || c.m_linearResponseOffsetB != 0) ? gResolveSingleConstraintRowGeneric_extension(bodyA, bodyB, c) : m_resolveSingleConstraintRowGeneric(bodyA, bodyB, c);
 }
 
 // Project Gauss Seidel or the equivalent Sequential Impulse
 btScalar btSequentialImpulseConstraintSolver::resolveSingleConstraintRowGeneric(btSolverBody& bodyA, btSolverBody& bodyB, const btSolverConstraint& c)
 {
-	return m_resolveSingleConstraintRowGeneric(bodyA, bodyB, c);
+	if (c.m_jacDiagABInv == 0) return 0;
+	return (c.m_linearResponseOffsetA != 0 || c.m_linearResponseOffsetB != 0) ? gResolveSingleConstraintRowGeneric_extension(bodyA, bodyB, c) : m_resolveSingleConstraintRowGeneric(bodyA, bodyB, c);
 }
 
 btScalar btSequentialImpulseConstraintSolver::resolveSingleConstraintRowLowerLimitSIMD(btSolverBody& bodyA, btSolverBody& bodyB, const btSolverConstraint& c)
@@ -1241,6 +1275,7 @@ void btSequentialImpulseConstraintSolver::convertJoint(btSolverConstraint* curre
 		}
 
 		solverConstraint.m_originalContactPoint = constraint;
+		if (constraint->finalizeExtensionRow(solverConstraint, j, infoGlobal, *bodyAPtr, *bodyBPtr)) continue;
 
 		{
 			const btVector3& ftorqueAxis1 = solverConstraint.m_relpos1CrossNormal;
@@ -1798,6 +1833,7 @@ void btSequentialImpulseConstraintSolver::writeBackJoints(int iBegin, int iEnd, 
 		}
 
 		constr->internalSetAppliedImpulse(solverConstr.m_appliedImpulse);
+		constr->onExtensionRowSolved(solverConstr.m_frictionIndex, solverConstr.m_appliedImpulse, infoGlobal.m_timeStep);
 		if (btFabs(solverConstr.m_appliedImpulse) >= constr->getBreakingImpulseThreshold())
 		{
 			constr->setEnabled(false);

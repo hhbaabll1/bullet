@@ -32,7 +32,8 @@ enum btTypedMultiBodyConstraintType
 	MULTIBODY_CONSTRAINT_SPHERICAL_MOTOR,
 	MULTIBODY_CONSTRAINT_FIXED,
 	MULTIBODY_CONSTRAINT_SPHERICAL_LIMIT,
-	MULTIBODY_CONSTRAINT_ROW_DESCRIPTOR,  // opt-in generalized rows
+	MULTIBODY_CONSTRAINT_ROW_DESCRIPTOR,
+	MULTIBODY_CONSTRAINT_DISTANCE,
 	MAX_MULTIBODY_CONSTRAINT_TYPE,
 };
 
@@ -145,6 +146,7 @@ public:
 	{
 		return m_linkB;
 	}
+	virtual void onExtensionRowSolved(int, btScalar, btScalar) {}
 	void internalSetAppliedImpulse(int dof, btScalar appliedImpulse)
 	{
 		btAssert(dof >= 0);

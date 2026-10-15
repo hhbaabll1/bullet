@@ -47,6 +47,8 @@ btSolverConstraint
 	btScalar m_jacDiagABInv;
 	btScalar m_rhs;
 	btScalar m_cfm;
+	// Zero for legacy rows; opt-in per-constraint inverse-mass response offsets.
+	btScalar m_linearResponseOffsetA, m_linearResponseOffsetB;
 
 	btScalar m_lowerLimit;
 	btScalar m_upperLimit;

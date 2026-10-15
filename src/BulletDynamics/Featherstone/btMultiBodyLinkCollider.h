@@ -73,6 +73,9 @@ public:
 
 	virtual bool checkCollideWithOverride(const btCollisionObject* co) const
 	{
+		// Respect explicit pair exclusions used by extension constraints before
+		// applying the existing same-articulation collision policy.
+		if (!btCollisionObject::checkCollideWithOverride(co)) return false;
 		const btMultiBodyLinkCollider* other = btMultiBodyLinkCollider::upcast(co);
 		if (!other)
 			return true;

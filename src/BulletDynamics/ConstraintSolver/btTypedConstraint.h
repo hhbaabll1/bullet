@@ -29,6 +29,7 @@ subject to the following restrictions:
 #endif  //BT_USE_DOUBLE_PRECISION
 
 class btSerializer;
+struct btContactSolverInfo;
 
 //Don't change any of the existing enum values, so add enum types at the end for serialization compatibility
 enum btTypedConstraintType
@@ -44,6 +45,7 @@ enum btTypedConstraintType
 	FIXED_CONSTRAINT_TYPE,
 	D6_SPRING_2_CONSTRAINT_TYPE,
 	ROW_DESCRIPTOR_CONSTRAINT_TYPE,  // opt-in extension; existing real IDs unchanged
+	DISTANCE_CONSTRAINT_TYPE,  // opt-in PhysX Distance category
 	MAX_CONSTRAINT_TYPE
 };
 
@@ -179,6 +181,9 @@ public:
 	virtual void getInfo2(btConstraintInfo2 * info) = 0;
 
 	///internal method used by the constraint solver, don't use them directly
+	// Optional Bullet-native row finalization for extension constraints.
+	virtual bool finalizeExtensionRow(btSolverConstraint&, int, const btContactSolverInfo&, const btSolverBody&, const btSolverBody&) { return false; }
+	virtual void onExtensionRowSolved(int, btScalar, btScalar) {}
 	void internalSetAppliedImpulse(btScalar appliedImpulse)
 	{
 		m_appliedImpulse = appliedImpulse;
